@@ -48,7 +48,7 @@ public class containerWithMostWater {
      *     res = max(res, min(height[l], height[r]) * (r-l))
      *
      *     // those step is managing to find the higher wall
-     *     if l < r:
+     *     if height[l] < height[r]:
      *         ++l;
      *     else:
      *         --r
