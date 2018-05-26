@@ -24,6 +24,7 @@ Question | Done Date | Code | Tag |
 [268. Missing Number](https://leetcode.com/problems/missing-number/description/) | 2018/5/23 | [Here](src/MissingNumber.java) | Using index space! |
 [163. Missing Ranges](https://leetcode.com/problems/missing-ranges/description/) | 2018/5/23 | [Here](src/MissingRanges.java) | Iteration, edge cases |
 [189. Rotate Array](https://leetcode.com/problems/rotate-array/description/) | 2018/5/23 | [Here](src/RotateArray.java) | General way to rotate array (3 reverse) |
+[162. Find Peak Element](https://leetcode.com/problems/find-peak-element/description/) | 2018/5/24 | [Here](src/FindPeakElement.java) | Binary Search |
 
 
 
@@ -51,6 +52,7 @@ Question | Done Date | Code | Tag |
 [268. Missing Number](https://leetcode.com/problems/missing-number/description/) | 2018/5/23 | [Here](src/MissingNumber.java) | Using index space! |
 [163. Missing Ranges](https://leetcode.com/problems/missing-ranges/description/) | 2018/5/23 | [Here](src/MissingRanges.java) | Iteration, edge cases |
 [189. Rotate Array](https://leetcode.com/problems/rotate-array/description/) | 2018/5/23 | [Here](src/RotateArray.java) | General way to rotate array (3 reverse) |
+[162. Find Peak Element](https://leetcode.com/problems/find-peak-element/description/) | 2018/5/24 | [Here](src/FindPeakElement.java) | Binary Search |
 
 ## Linked List
 Question | Done Date | Code
