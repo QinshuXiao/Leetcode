@@ -25,6 +25,10 @@ Question | Done Date | Code | Tag |
 [163. Missing Ranges](https://leetcode.com/problems/missing-ranges/description/) | 2018/5/23 | [Here](src/MissingRanges.java) | Iteration, edge cases |
 [189. Rotate Array](https://leetcode.com/problems/rotate-array/description/) | 2018/5/23 | [Here](src/RotateArray.java) | General way to rotate array (3 reverse) |
 [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/description/) | 2018/5/24 | [Here](src/FindPeakElement.java) | Binary Search |
+[78. Subsets](https://leetcode.com/problems/subsets/description/) | 2018/5/25 | [Here](src/Subsets.java) | Backtracking (general way to solve subsets problem) |
+[90. Subsets II](https://leetcode.com/problems/subsets-ii/description/) | 2018/5/25 | [Here](src/SubsetII.java) | Sort + Backtracking |
+[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | 2018/5/25 | [Here](src/RemoveDuplicatesfromSortedArray.java) | Two pointers |
+[73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | 2018/5/25 | [Here](src/SetMatrixZeroes.java) | Take use of original matrix space |
 
 
 
@@ -53,6 +57,10 @@ Question | Done Date | Code | Tag |
 [163. Missing Ranges](https://leetcode.com/problems/missing-ranges/description/) | 2018/5/23 | [Here](src/MissingRanges.java) | Iteration, edge cases |
 [189. Rotate Array](https://leetcode.com/problems/rotate-array/description/) | 2018/5/23 | [Here](src/RotateArray.java) | General way to rotate array (3 reverse) |
 [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/description/) | 2018/5/24 | [Here](src/FindPeakElement.java) | Binary Search |
+[78. Subsets](https://leetcode.com/problems/subsets/description/) | 2018/5/25 | [Here](src/Subsets.java) | Backtracking (general way to solve subsets problem) |
+[90. Subsets II](https://leetcode.com/problems/subsets-ii/description/) | 2018/5/25 | [Here](src/SubsetII.java) | Sort + Backtracking |
+[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | 2018/5/25 | [Here](src/RemoveDuplicatesfromSortedArray.java) | Two pointers |
+[73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | 2018/5/25 | [Here](src/SetMatrixZeroes.java) | Take use of original matrix space |
 
 ## Linked List
 Question | Done Date | Code
