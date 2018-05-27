@@ -32,6 +32,7 @@ Question | Done Date | Code | Note |
 [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | 2018/5/26 | [Here](src/LargestRectangleinHistogram.java) | For each number, find longest range in which it's the minimum with the help of **stack** |
 [75. Sort Colors](https://leetcode.com/problems/sort-colors/description/) | 2018/5/26 | [Here](src/SortColors.java) | Two pointer |
 [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | 2018/5/26 | [Here](src/SearchRange.java) | Binary search |
+[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | 2018/5/26 | [Here](src/SpiralMatrix.java) | Four pointers to denote boundaries |
 
 
 
@@ -68,6 +69,7 @@ Question | Done Date | Code | Note |
 [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | 2018/5/26 | [Here](src/LargestRectangleinHistogram.java) | For each number, find longest range in which it's the minimum with the help of **stack** |
 [75. Sort Colors](https://leetcode.com/problems/sort-colors/description/) | 2018/5/26 | [Here](src/SortColors.java) | Two pointer |
 [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | 2018/5/26 | [Here](src/SearchRange.java) | Binary search |
+[54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | 2018/5/26 | [Here](src/SpiralMatrix.java) | Four pointers to denote boundaries |
 
 ## Linked List
 Question | Done Date | Code
