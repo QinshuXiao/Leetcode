@@ -5,7 +5,7 @@ Well, It's May 2018, I graduated last week, but I'm still seeking a job. I'm job
 I hope I can record this journey. 
 
 ## Top interview problem
-Question | Done Date | Code | Tag |
+Question | Done Date | Code | Note |
 ----|----|-----|----|
 [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | 2018/5/21 | [Here](src/containerWithMostWater.java) | Two Pointer |
 [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) | 2018/5/21 | [Here](src/firstMissingPositive.java) | Using Index space |
@@ -29,12 +29,16 @@ Question | Done Date | Code | Tag |
 [90. Subsets II](https://leetcode.com/problems/subsets-ii/description/) | 2018/5/25 | [Here](src/SubsetII.java) | Sort + Backtracking |
 [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | 2018/5/25 | [Here](src/RemoveDuplicatesfromSortedArray.java) | Two pointers |
 [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | 2018/5/25 | [Here](src/SetMatrixZeroes.java) | Take use of original matrix space |
+[84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | 2018/5/26 | [Here](src/LargestRectangleinHistogram.java) | For each number, find longest range in which it's the minimum with the help of **stack** |
+[75. Sort Colors](https://leetcode.com/problems/sort-colors/description/) | 2018/5/26 | [Here](src/SortColors.java) | Two pointer |
+[34. Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | 2018/5/26 | [Here](src/SearchRange.java) | Binary search |
+
 
 
 
 ## Array
 
-Question | Done Date | Code | Tag |
+Question | Done Date | Code | Note |
 ----|----|-----|-----|
 [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | 2018/5/21 | [Here](src/containerWithMostWater.java) | Two pointer |
 [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/description/) | 2018/5/21 | [Here](src/threeSumClosest.java) | Sorting |
@@ -61,6 +65,9 @@ Question | Done Date | Code | Tag |
 [90. Subsets II](https://leetcode.com/problems/subsets-ii/description/) | 2018/5/25 | [Here](src/SubsetII.java) | Sort + Backtracking |
 [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | 2018/5/25 | [Here](src/RemoveDuplicatesfromSortedArray.java) | Two pointers |
 [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | 2018/5/25 | [Here](src/SetMatrixZeroes.java) | Take use of original matrix space |
+[84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | 2018/5/26 | [Here](src/LargestRectangleinHistogram.java) | For each number, find longest range in which it's the minimum with the help of **stack** |
+[75. Sort Colors](https://leetcode.com/problems/sort-colors/description/) | 2018/5/26 | [Here](src/SortColors.java) | Two pointer |
+[34. Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | 2018/5/26 | [Here](src/SearchRange.java) | Binary search |
 
 ## Linked List
 Question | Done Date | Code
