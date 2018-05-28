@@ -98,10 +98,6 @@ public class containerWithMostWater {
 
     }
 
-    public static void containerWithMostWater(){
-
-    }
-
     public int maxArea(int[] height) {
         int l = 0, r = height.length-1;
         int res = 0;
