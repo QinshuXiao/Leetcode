@@ -34,7 +34,10 @@ Question | Done Date | Code | Note |
 [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | 2018/5/26 | [Here](src/SearchRange.java) | Binary search |
 [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | 2018/5/26 | [Here](src/SpiralMatrix.java) | Four pointers to denote boundaries |
 [48. Rotate Image](https://leetcode.com/problems/rotate-image/description/) | 2018/5/27 | [Here](src/RotateImage.java) | Four pointer to denote four points on which we need to operate |
-
+[105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | 2018/5/28 | [Here](src/ConstructBinaryTreefromPreorderandInorderTraversal.java) | logic behind preorder and inorder |
+[66. Plus One](https://leetcode.com/problems/plus-one/description/) | 2018/5/28 | [Here](src/PlusOne.java) | Advanced bit |
+[1. Two Sum](https://leetcode.com/problems/two-sum/description/) | 2018/5/28 | [Here](src/TwoSum.java) | Two ways: 1. sorting + two pointers; 2. HashMap |
+[15. 3Sum](https://leetcode.com/problems/3sum/description/) | 2018/5/28 | [Here](src/ThreeSum.java) | Classical Sorting + two pointers |
 
 
 
@@ -72,6 +75,10 @@ Question | Done Date | Code | Note |
 [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | 2018/5/26 | [Here](src/SearchRange.java) | Binary search |
 [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | 2018/5/26 | [Here](src/SpiralMatrix.java) | Four pointers to denote boundaries |
 [48. Rotate Image](https://leetcode.com/problems/rotate-image/description/) | 2018/5/27 | [Here](src/RotateImage.java) | Four pointer to denote four points on which we need to operate |
+[105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | 2018/5/28 | [Here](src/ConstructBinaryTreefromPreorderandInorderTraversal.java) | logic behind preorder and inorder |
+[66. Plus One](https://leetcode.com/problems/plus-one/description/) | 2018/5/28 | [Here](src/PlusOne.java) | Advanced bit |
+[1. Two Sum](https://leetcode.com/problems/two-sum/description/) | 2018/5/28 | [Here](src/TwoSum.java) | Two ways: 1. sorting + two pointers; 2. HashMap |
+[15. 3Sum](https://leetcode.com/problems/3sum/description/) | 2018/5/28 | [Here](src/ThreeSum.java) | Classical Sorting + two pointers |
 
 ## Linked List
 Question | Done Date | Code
