@@ -39,8 +39,10 @@ Question | Done Date | Code | Note |
 [1. Two Sum](https://leetcode.com/problems/two-sum/description/) | 2018/5/28 | [Here](src/TwoSum.java) | Two ways: 1. sorting + two pointers; 2. HashMap |
 [15. 3Sum](https://leetcode.com/problems/3sum/description/) | 2018/5/28 | [Here](src/ThreeSum.java) | Classical Sorting + two pointers |
 [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/) | 2018/5/28 | [Here](src/UniquePaths.java) | Classical DP |
-
-
+[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | 2018/5/29 | [Here](src/ContainsDuplicate.java) | 1. Sorting; 2. HashSet |
+[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | 2018/5/29 | [Here](src/BestTimetoBuyandSellStock.java) | DP |
+[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | 2018/5/29 | [Here](src/BestTimetoBuyandSellStockII.java) | DP |
+[380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) | 2018/5/29 | [Here](src/InsertDeleteGetRandomOone.java) | ArrayList + HashMap + record index in hashmap |
 
 
 ## Array
@@ -82,6 +84,10 @@ Question | Done Date | Code | Note |
 [1. Two Sum](https://leetcode.com/problems/two-sum/description/) | 2018/5/28 | [Here](src/TwoSum.java) | Two ways: 1. sorting + two pointers; 2. HashMap |
 [15. 3Sum](https://leetcode.com/problems/3sum/description/) | 2018/5/28 | [Here](src/ThreeSum.java) | Classical Sorting + two pointers |
 [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/) | 2018/5/28 | [Here](src/UniquePaths.java) | Classical DP |
+[217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | 2018/5/29 | [Here](src/ContainsDuplicate.java) | 1. Sorting; 2. HashSet |
+[121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | 2018/5/29 | [Here](src/BestTimetoBuyandSellStock.java) | DP |
+[122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | 2018/5/29 | [Here](src/BestTimetoBuyandSellStockII.java) | DP |
+[380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) | 2018/5/29 | [Here](src/InsertDeleteGetRandomOone.java) | ArrayList + HashMap + record index in hashmap |
 
 ## Linked List
 Question | Done Date | Code
