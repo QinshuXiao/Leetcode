@@ -43,6 +43,7 @@ Question | Done Date | Code | Note |
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | 2018/5/29 | [Here](src/BestTimetoBuyandSellStock.java) | DP |
 [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | 2018/5/29 | [Here](src/BestTimetoBuyandSellStockII.java) | DP |
 [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) | 2018/5/29 | [Here](src/InsertDeleteGetRandomOone.java) | ArrayList + HashMap + record index in hashmap |
+[381. Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | 2018/5/30 | [Here](src/InsertDeleteGetRandomDuplicatesOone.java) | ArrayList + HashMap + record indexes using linkedlist |
 
 
 ## Array
@@ -88,6 +89,7 @@ Question | Done Date | Code | Note |
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | 2018/5/29 | [Here](src/BestTimetoBuyandSellStock.java) | DP |
 [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | 2018/5/29 | [Here](src/BestTimetoBuyandSellStockII.java) | DP |
 [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) | 2018/5/29 | [Here](src/InsertDeleteGetRandomOone.java) | ArrayList + HashMap + record index in hashmap |
+[381. Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | 2018/5/30 | [Here](src/InsertDeleteGetRandomDuplicatesOone.java) | ArrayList + HashMap + record indexes using linkedlist |
 
 ## Linked List
 Question | Done Date | Code
