@@ -42,6 +42,9 @@ Question | Done Date | Code | Note |
 [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | 2018/5/29 | [Here](src/ContainsDuplicate.java) | 1. Sorting; 2. HashSet |
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | 2018/5/29 | [Here](src/BestTimetoBuyandSellStock.java) | DP |
 [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | 2018/5/29 | [Here](src/BestTimetoBuyandSellStockII.java) | DP |
+[123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) | 2018/5/31 | [Here](src/BestTimetoBuyandSellStockIII.java) | DP |
+[188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/) | 2018/5/31 | [Here](src/BestTimetoBuyandSellStockIV.java) | DP |
+[309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) | 2018/5/31 | [Here](src/BestTimetoBuyandSellStockwithCooldown.java) | DP |
 [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) | 2018/5/29 | [Here](src/InsertDeleteGetRandomOone.java) | ArrayList + HashMap + record index in hashmap |
 [381. Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | 2018/5/30 | [Here](src/InsertDeleteGetRandomDuplicatesOone.java) | ArrayList + HashMap + record indexes using linkedlist |
 
@@ -88,13 +91,16 @@ Question | Done Date | Code | Note |
 [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) | 2018/5/29 | [Here](src/ContainsDuplicate.java) | 1. Sorting; 2. HashSet |
 [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | 2018/5/29 | [Here](src/BestTimetoBuyandSellStock.java) | DP |
 [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) | 2018/5/29 | [Here](src/BestTimetoBuyandSellStockII.java) | DP |
+[123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) | 2018/5/31 | [Here](src/BestTimetoBuyandSellStockIII.java) | DP |
+[188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/) | 2018/5/31 | [Here](src/BestTimetoBuyandSellStockIV.java) | DP |
+[309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) | 2018/5/31 | [Here](src/BestTimetoBuyandSellStockwithCooldown.java) | DP |
 [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) | 2018/5/29 | [Here](src/InsertDeleteGetRandomOone.java) | ArrayList + HashMap + record index in hashmap |
 [381. Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | 2018/5/30 | [Here](src/InsertDeleteGetRandomDuplicatesOone.java) | ArrayList + HashMap + record indexes using linkedlist |
 
 ## Linked List
-Question | Done Date | Code
-----|----|-----|
-[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | 2018/5/22 | [Here](src/PalindromeLinkedList.java) |
-[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | 2018/5/22 | [Here](src/MergeTwoSortedLists.java) |
+Question | Done Date | Code | Note |
+----|----|-----|-----|
+[234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | 2018/5/22 | [Here](src/PalindromeLinkedList.java) | Two Pointer, find half point in Linkedlist |
+[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | 2018/5/22 | [Here](src/MergeTwoSortedLists.java) | Two Pointer, Merge sort |
 
  
