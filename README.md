@@ -53,7 +53,10 @@ Question | Done Date | Code | Note |
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | 2018/6/1 | [Here](src/LinkedListCycle.java) | Two pointers, one moves forward by 2 steps while the other moves forward by 1 step. |
 [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | 2018/6/1 | [Here](src/DeleteNodeinaLinkedList.java) | Set node's value to next node's value. Like the way we use to delete a value in the array |
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | 2018/6/1 | [Here](src/ReverseLinkedList.java) | Two ways: 1. recursion; 2. pinpoint tail, and then continuously move head to the next of tail, until tail is head. |
-
+[148. Sort List](https://leetcode.com/problems/sort-list/description/) | 2018/6/2 | [Here](src/SortList.java) | Merge Sort |
+[328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/) | 2018/6/2 | [Here](src/OddEvenLinkedList.java) | put nodes in one list to another list |
+[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | 2018/6/2 | [Here](src/MergekSortedLists.java) | Priority Queue |
+[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | 2018/6/2 | [Here](src/CopyListwithRandomPointer.java) | Firstly, copy label and put new generated node right behind original node; Then copy random pointer; Finally, extract copied nodes and reset original list |
 
 ## Array
 
@@ -102,6 +105,7 @@ Question | Done Date | Code | Note |
 [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) | 2018/5/31 | [Here](src/BestTimetoBuyandSellStockwithCooldown.java) | DP |
 [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) | 2018/5/29 | [Here](src/InsertDeleteGetRandomOone.java) | ArrayList + HashMap + record index in hashmap |
 [381. Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | 2018/5/30 | [Here](src/InsertDeleteGetRandomDuplicatesOone.java) | ArrayList + HashMap + record indexes using linkedlist |
+[689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/description/) | 2018/6/1 | [Here](src/MaximumSumof3NonOverlappingSubarrays.java) | DP, variance of Best Time to Buy and Sell Stocks |
 
 ## Linked List
 Question | Done Date | Code | Note |
@@ -114,4 +118,7 @@ Question | Done Date | Code | Note |
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | 2018/6/1 | [Here](src/LinkedListCycle.java) | Two pointers, one moves forward by 2 steps while the other moves forward by 1 step. |
 [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | 2018/6/1 | [Here](src/DeleteNodeinaLinkedList.java) | Set node's value to next node's value. Like the way we use to delete a value in the array |
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | 2018/6/1 | [Here](src/ReverseLinkedList.java) | Two ways: 1. recursion; 2. pinpoint tail, and then continuously move head to the next of tail, until tail is head. |
- 
+[148. Sort List](https://leetcode.com/problems/sort-list/description/) | 2018/6/2 | [Here](src/SortList.java) | Merge Sort |
+[328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/) | 2018/6/2 | [Here](src/OddEvenLinkedList.java) | put nodes in one list to another list |
+[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | 2018/6/2 | [Here](src/MergekSortedLists.java) | Priority Queue |
+[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | 2018/6/2 | [Here](src/CopyListwithRandomPointer.java) | Firstly, copy label and put new generated node right behind original node; Then copy random pointer; Finally, extract copied nodes and reset original list |
