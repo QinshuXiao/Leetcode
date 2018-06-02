@@ -47,6 +47,12 @@ Question | Done Date | Code | Note |
 [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) | 2018/5/31 | [Here](src/BestTimetoBuyandSellStockwithCooldown.java) | DP |
 [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) | 2018/5/29 | [Here](src/InsertDeleteGetRandomOone.java) | ArrayList + HashMap + record index in hashmap |
 [381. Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | 2018/5/30 | [Here](src/InsertDeleteGetRandomDuplicatesOone.java) | ArrayList + HashMap + record indexes using linkedlist |
+[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | 2018/6/1 | [Here](src/RemoveNthNodeFromEndofList.java) | two pointers |
+[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | 2018/6/1 | [Here](src/AddTwoNumbers.java) | two pointers, advacend bit |
+[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | 2018/6/1 | [Here](src/IntersectionofTwoLinkedLists.java) | Two pointers, finding entry point of the circular list |
+[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | 2018/6/1 | [Here](src/LinkedListCycle.java) | Two pointers, one moves forward by 2 steps while the other moves forward by 1 step. |
+[237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | 2018/6/1 | [Here](src/DeleteNodeinaLinkedList.java) | Set node's value to next node's value. Like the way we use to delete a value in the array |
+[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | 2018/6/1 | [Here](src/ReverseLinkedList.java) | Two ways: 1. recursion; 2. pinpoint tail, and then continuously move head to the next of tail, until tail is head. |
 
 
 ## Array
@@ -102,5 +108,10 @@ Question | Done Date | Code | Note |
 ----|----|-----|-----|
 [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | 2018/5/22 | [Here](src/PalindromeLinkedList.java) | Two Pointer, find half point in Linkedlist |
 [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | 2018/5/22 | [Here](src/MergeTwoSortedLists.java) | Two Pointer, Merge sort |
-
+[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | 2018/6/1 | [Here](src/RemoveNthNodeFromEndofList.java) | two pointers |
+[2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | 2018/6/1 | [Here](src/AddTwoNumbers.java) | two pointers, advacend bit |
+[160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | 2018/6/1 | [Here](src/IntersectionofTwoLinkedLists.java) | Two pointers, finding entry point of the circular list |
+[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | 2018/6/1 | [Here](src/LinkedListCycle.java) | Two pointers, one moves forward by 2 steps while the other moves forward by 1 step. |
+[237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | 2018/6/1 | [Here](src/DeleteNodeinaLinkedList.java) | Set node's value to next node's value. Like the way we use to delete a value in the array |
+[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | 2018/6/1 | [Here](src/ReverseLinkedList.java) | Two ways: 1. recursion; 2. pinpoint tail, and then continuously move head to the next of tail, until tail is head. |
  
