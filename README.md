@@ -122,3 +122,9 @@ Question | Done Date | Code | Note |
 [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/) | 2018/6/2 | [Here](src/OddEvenLinkedList.java) | put nodes in one list to another list |
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | 2018/6/2 | [Here](src/MergekSortedLists.java) | Priority Queue |
 [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | 2018/6/2 | [Here](src/CopyListwithRandomPointer.java) | Firstly, copy label and put new generated node right behind original node; Then copy random pointer; Finally, extract copied nodes and reset original list |
+
+## String
+
+Question | Done Date | Code | Note |
+----|----|-----|-----|
+[408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/description/) | 2018/6/3 | [Here](src/ValidWordAbbreviation.java) | convert string to char array; Two pointers; Extract numeric string and convert it to number |
