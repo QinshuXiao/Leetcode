@@ -57,6 +57,12 @@ Question | Done Date | Code | Note |
 [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/) | 2018/6/2 | [Here](src/OddEvenLinkedList.java) | put nodes in one list to another list |
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | 2018/6/2 | [Here](src/MergekSortedLists.java) | Priority Queue |
 [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | 2018/6/2 | [Here](src/CopyListwithRandomPointer.java) | Firstly, copy label and put new generated node right behind original node; Then copy random pointer; Finally, extract copied nodes and reset original list |
+[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | 2018/6/4 | [Here](src/ValidPalindrome.java) | Two pointers, one is moving forward while the other is moving backward |
+[91. Decode Ways](https://leetcode.com/problems/decode-ways/description/) | 2018/6/4 | [Here](src/DecodeWays.java) | DP, edge cases, care about '0' |
+[387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/) | 2018/6/4 | [Here](src/FirstUniqueCharacterinaString.java) | Using array to store appearance of lowercase character |
+[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | 2018/6/4 | [Here](src/RomantoInteger.java) | Math logic |
+[340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/) | 2018/6/4 | [Here](src/LongestSubstringwithAtMostKDistinctCharacters.java) | <ul><li>Two pointers to delimit substring;</li> <li>HashMap to record how many different character appear in substring, and record number of appearances of each character</li></ul> |
+[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | 2018/6/4 | [Here](src/MinimumWindowSubstring.java) | Same as above |
 
 ## Array
 
@@ -107,6 +113,7 @@ Question | Done Date | Code | Note |
 [381. Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | 2018/5/30 | [Here](src/InsertDeleteGetRandomDuplicatesOone.java) | ArrayList + HashMap + record indexes using linkedlist |
 [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/description/) | 2018/6/1 | [Here](src/MaximumSumof3NonOverlappingSubarrays.java) | DP, variance of Best Time to Buy and Sell Stocks |
 
+
 ## Linked List
 Question | Done Date | Code | Note |
 ----|----|-----|-----|
@@ -128,3 +135,10 @@ Question | Done Date | Code | Note |
 Question | Done Date | Code | Note |
 ----|----|-----|-----|
 [408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation/description/) | 2018/6/3 | [Here](src/ValidWordAbbreviation.java) | convert string to char array; Two pointers; Extract numeric string and convert it to number |
+[125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | 2018/6/4 | [Here](src/ValidPalindrome.java) | Two pointers, one is moving forward while the other is moving backward |
+[91. Decode Ways](https://leetcode.com/problems/decode-ways/description/) | 2018/6/4 | [Here](src/DecodeWays.java) | DP, edge cases, care about '0' |
+[387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/) | 2018/6/4 | [Here](src/FirstUniqueCharacterinaString.java) | Using array to store appearance of lowercase character |
+[13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | 2018/6/4 | [Here](src/RomantoInteger.java) | Math logic |
+[340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/) | 2018/6/4 | [Here](src/LongestSubstringwithAtMostKDistinctCharacters.java) | <ul><li>Two pointers to delimit substring;</li> <li>HashMap to record how many different character appear in substring, and record number of appearances of each character</li></ul> |
+[76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | 2018/6/4 | [Here](src/MinimumWindowSubstring.java) | Same as above |
+
