@@ -63,6 +63,7 @@ Question | Done Date | Code | Note |
 [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | 2018/6/4 | [Here](src/RomantoInteger.java) | Math logic |
 [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/) | 2018/6/4 | [Here](src/LongestSubstringwithAtMostKDistinctCharacters.java) | <ul><li>Two pointers to delimit substring;</li> <li>HashMap to record how many different character appear in substring, and record number of appearances of each character</li></ul> |
 [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | 2018/6/4 | [Here](src/MinimumWindowSubstring.java) | Same as above |
+[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | 2018/6/4 | [Here](src/LongestSubstringWithoutRepeatingCharacters.java) | Two pointers + Boolean array recording character appearing in s[slow:fast] |
 
 ## Array
 
@@ -141,4 +142,4 @@ Question | Done Date | Code | Note |
 [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/) | 2018/6/4 | [Here](src/RomantoInteger.java) | Math logic |
 [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/) | 2018/6/4 | [Here](src/LongestSubstringwithAtMostKDistinctCharacters.java) | <ul><li>Two pointers to delimit substring;</li> <li>HashMap to record how many different character appear in substring, and record number of appearances of each character</li></ul> |
 [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | 2018/6/4 | [Here](src/MinimumWindowSubstring.java) | Same as above |
-
+[3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | 2018/6/4 | [Here](src/LongestSubstringWithoutRepeatingCharacters.java) | Two pointers + Boolean array recording character appearing in s[slow:fast] |
