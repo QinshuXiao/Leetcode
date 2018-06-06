@@ -64,6 +64,10 @@ Question | Done Date | Code | Note |
 [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/) | 2018/6/4 | [Here](src/LongestSubstringwithAtMostKDistinctCharacters.java) | <ul><li>Two pointers to delimit substring;</li> <li>HashMap to record how many different character appear in substring, and record number of appearances of each character</li></ul> |
 [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | 2018/6/4 | [Here](src/MinimumWindowSubstring.java) | Same as above |
 [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | 2018/6/4 | [Here](src/LongestSubstringWithoutRepeatingCharacters.java) | Two pointers + Boolean array recording character appearing in s[slow:fast] |
+[344. Reverse String](https://leetcode.com/problems/reverse-string/description/) | 2018/6/5 | [Here](src/ReverseString.java) | Easiest |
+[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | 2018/6/5 | [Here](src/GroupAnagrams.java) | HashMap; Firstly sort the string |
+[14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | 2018/6/5 | [Here](src/LongestCommonPrefix.java) | Pointer to specify index we're at + vertical iteration and comparation |
+[28. Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | 2018/6/5 | [Here](src/ImplementstrStr.java) | Using java built-in substring() and equals() |
 
 ## Array
 
@@ -143,3 +147,7 @@ Question | Done Date | Code | Note |
 [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/description/) | 2018/6/4 | [Here](src/LongestSubstringwithAtMostKDistinctCharacters.java) | <ul><li>Two pointers to delimit substring;</li> <li>HashMap to record how many different character appear in substring, and record number of appearances of each character</li></ul> |
 [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | 2018/6/4 | [Here](src/MinimumWindowSubstring.java) | Same as above |
 [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | 2018/6/4 | [Here](src/LongestSubstringWithoutRepeatingCharacters.java) | Two pointers + Boolean array recording character appearing in s[slow:fast] |
+[344. Reverse String](https://leetcode.com/problems/reverse-string/description/) | 2018/6/5 | [Here](src/ReverseString.java) | Easiest |
+[49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | 2018/6/5 | [Here](src/GroupAnagrams.java) | HashMap; Firstly sort the string |
+[14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | 2018/6/5 | [Here](src/LongestCommonPrefix.java) | Pointer to specify index we're at + vertical iteration and comparation |
+[28. Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | 2018/6/5 | [Here](src/ImplementstrStr.java) | Using java built-in substring() and equals() |
