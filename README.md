@@ -2,7 +2,8 @@
 ## Some nonsense
 Well, It's May 2018, I graduated last week, but I'm still seeking a job. I'm jobless right now .....  
   
-I hope I can record this journey. 
+I hope I can record this journey.  
+**Trust The Process**
 
 ## Top interview problem
 Question | Done Date | Code | Note |
@@ -71,6 +72,9 @@ Question | Done Date | Code | Note |
 [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | 2018/6/6 | [Here](src/ValidParentheses.java) | Stack |
 [38. Count and Say](https://leetcode.com/problems/count-and-say/description/) | 2018/6/6 | [Here](src/CountandSay.java) | Operation of StringBuilder |
 [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | 2018/6/6 | [Here](src/StringtoInteger.java) | Edge cases: 1. leading blanks; 2. '+' or '-'; 3. Integer overflow |
+[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | 2018/6/6 | [Here](src/LongestPalindromicSubstring.java) | Two pointers |
+[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | 2018/6/6 | [Here](src/GenerateParentheses.java) | Backtracking |
+[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | 2018/6/6 | [Here](src/LetterCombinationsofaPhoneNumber.java) | Backtracking |
 
 ## Array
 
@@ -157,3 +161,6 @@ Question | Done Date | Code | Note |
 [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | 2018/6/6 | [Here](src/ValidParentheses.java) | Stack |
 [38. Count and Say](https://leetcode.com/problems/count-and-say/description/) | 2018/6/6 | [Here](src/CountandSay.java) | Operation of StringBuilder |
 [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | 2018/6/6 | [Here](src/StringtoInteger.java) | Edge cases: 1. leading blanks; 2. '+' or '-'; 3. Integer overflow |
+[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | 2018/6/6 | [Here](src/LongestPalindromicSubstring.java) | Two pointers |
+[22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | 2018/6/6 | [Here](src/GenerateParentheses.java) | Backtracking |
+[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | 2018/6/6 | [Here](src/LetterCombinationsofaPhoneNumber.java) | Backtracking |
