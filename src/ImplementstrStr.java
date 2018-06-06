@@ -33,7 +33,7 @@ public class ImplementstrStr {
             if(haystack.substring(idx, idx+len).equals(needle)) return idx;
             ++idx;
         }
-
+        
         return -1;
 
     }

@@ -68,6 +68,9 @@ Question | Done Date | Code | Note |
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | 2018/6/5 | [Here](src/GroupAnagrams.java) | HashMap; Firstly sort the string |
 [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | 2018/6/5 | [Here](src/LongestCommonPrefix.java) | Pointer to specify index we're at + vertical iteration and comparation |
 [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | 2018/6/5 | [Here](src/ImplementstrStr.java) | Using java built-in substring() and equals() |
+[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | 2018/6/6 | [Here](src/ValidParentheses.java) | Stack |
+[38. Count and Say](https://leetcode.com/problems/count-and-say/description/) | 2018/6/6 | [Here](src/CountandSay.java) | Operation of StringBuilder |
+[8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | 2018/6/6 | [Here](src/StringtoInteger.java) | Edge cases: 1. leading blanks; 2. '+' or '-'; 3. Integer overflow |
 
 ## Array
 
@@ -151,3 +154,6 @@ Question | Done Date | Code | Note |
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | 2018/6/5 | [Here](src/GroupAnagrams.java) | HashMap; Firstly sort the string |
 [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/) | 2018/6/5 | [Here](src/LongestCommonPrefix.java) | Pointer to specify index we're at + vertical iteration and comparation |
 [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | 2018/6/5 | [Here](src/ImplementstrStr.java) | Using java built-in substring() and equals() |
+[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | 2018/6/6 | [Here](src/ValidParentheses.java) | Stack |
+[38. Count and Say](https://leetcode.com/problems/count-and-say/description/) | 2018/6/6 | [Here](src/CountandSay.java) | Operation of StringBuilder |
+[8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | 2018/6/6 | [Here](src/StringtoInteger.java) | Edge cases: 1. leading blanks; 2. '+' or '-'; 3. Integer overflow |
