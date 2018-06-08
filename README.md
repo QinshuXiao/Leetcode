@@ -75,6 +75,12 @@ Question | Done Date | Code | Note |
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | 2018/6/6 | [Here](src/LongestPalindromicSubstring.java) | Two pointers |
 [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | 2018/6/6 | [Here](src/GenerateParentheses.java) | Backtracking |
 [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | 2018/6/6 | [Here](src/LetterCombinationsofaPhoneNumber.java) | Backtracking |
+[44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/) | 2018/6/7 | [Here](src/WildcardMatching.java) | DP |
+[10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) | 2018/6/7 | [Here](src/RegularExpressionMatching.java) | DP |
+[224. Basic Calculator](https://leetcode.com/problems/basic-calculator/description/) | 2018/6/7 | [Here](src/BasicCalculator.java) | <ul><li>Recursion</li><li>Or using math logics</li></ul> |
+[227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/) | 2018/6/7 | [Here](src/BasicCalculatorII.java) | Stack, reverse polish expression |
+[772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) | 2018/6/7 | [Here](src/BasicCalculatorIII.java) | <ul><li>Recursion to solve embedded expression closed by '()'</li><li>Stack to solve operators with diffrent priority</li></ul> |
+
 
 ## Array
 
@@ -164,3 +170,8 @@ Question | Done Date | Code | Note |
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | 2018/6/6 | [Here](src/LongestPalindromicSubstring.java) | Two pointers |
 [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | 2018/6/6 | [Here](src/GenerateParentheses.java) | Backtracking |
 [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | 2018/6/6 | [Here](src/LetterCombinationsofaPhoneNumber.java) | Backtracking |
+[44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/) | 2018/6/7 | [Here](src/WildcardMatching.java) | DP |
+[10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) | 2018/6/7 | [Here](src/RegularExpressionMatching.java) | DP |
+[224. Basic Calculator](https://leetcode.com/problems/basic-calculator/description/) | 2018/6/7 | [Here](src/BasicCalculator.java) | <ul><li>Recursion</li><li>Or using math logics</li></ul> |
+[227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/) | 2018/6/7 | [Here](src/BasicCalculatorII.java) | Stack, reverse polish expression |
+[772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) | 2018/6/7 | [Here](src/BasicCalculatorIII.java) | <ul><li>Recursion to solve embedded expression closed by '()'</li><li>Stack to solve operators with diffrent priority</li></ul> |
