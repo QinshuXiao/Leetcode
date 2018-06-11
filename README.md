@@ -83,6 +83,8 @@ Question | Done Date | Code | Note |
 [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/) | 2018/6/8 | [Here](src/BinaryTreeZigzagLevelOrderTraversal.java) | Queue + boolean flag |
 [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | 2018/6/10 | [Here](src/BinaryTreeLevelOrderTraversal.java) | Using Queue to do BFS |
 [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | 2018/6/10 | [Here](src/KthSmallestElementinaBST.java) | Do Binary Search on BST. It's just like do DFS on BST, so that we can visit nodes in order. And we record how many nodes we have visited, and once we visited Kth node, we return it. |
+[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | 2018/6/10 | [Here](src/BinaryTreeInorderTraversal.java) | Do DFS on Binary Tree. Visit left subtree firstly, then visit root, finally visit right subtree |
+[285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/) | 2018/6/10 | [Here](src/InorderSuccessorinBST.java) | do recursion along with passing a upperRight node |
 
 
 
@@ -186,3 +188,5 @@ Question | Done Date | Code | Note |
 [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/) | 2018/6/8 | [Here](src/BinaryTreeZigzagLevelOrderTraversal.java) | Queue + boolean flag |
 [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | 2018/6/10 | [Here](src/BinaryTreeLevelOrderTraversal.java) | Using Queue to do BFS |
 [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | 2018/6/10 | [Here](src/KthSmallestElementinaBST.java) | Do Binary Search on BST. It's just like do DFS on BST, so that we can visit nodes in order. And we record how many nodes we have visited, and once we visited Kth node, we return it. |
+[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | 2018/6/10 | [Here](src/BinaryTreeInorderTraversal.java) | Do DFS on Binary Tree. Visit left subtree firstly, then visit root, finally visit right subtree |
+[285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/) | 2018/6/10 | [Here](src/InorderSuccessorinBST.java) | do recursion along with passing a upperRight node |
