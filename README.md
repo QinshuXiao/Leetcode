@@ -86,7 +86,9 @@ Question | Done Date | Code | Note |
 [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | 2018/6/10 | [Here](src/BinaryTreeInorderTraversal.java) | Do DFS on Binary Tree. Visit left subtree firstly, then visit root, finally visit right subtree |
 [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/) | 2018/6/10 | [Here](src/InorderSuccessorinBST.java) | do recursion along with passing a upperRight node |
 [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) | 2018/6/10 | [Here](src/ValidateBinarySearchTree.java) | From bottom to top. Firstly check left subtree, then check right subtree, finally check root. |
-
+[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | 2018/6/11 | [Here](src/SymmetricTree.java) | <ul><li>Recursion.</li> <li>isMirror(left.right, right.left) && isMirror(left.left, right.right) && left.val == right.val</li></ul> |
+[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | 2018/6/11 | [Here](src/MaximumDepthofBinaryTree.java) | BFS using Queue |
+[108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | 2018/6/11 | [Here](src/ConvertSortedArraytoBinarySearchTree.java) | Recursion + Property of **BALANCED** BST |
 
 ## Array
 
@@ -185,9 +187,13 @@ Question | Done Date | Code | Note |
 ## Tree
 Question | Done Date | Code | Note |
 ----|----|-----|-----|
+[105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) | 2018/5/28 | [Here](src/ConstructBinaryTreefromPreorderandInorderTraversal.java) | logic behind preorder and inorder |
 [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/) | 2018/6/8 | [Here](src/BinaryTreeZigzagLevelOrderTraversal.java) | Queue + boolean flag |
 [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | 2018/6/10 | [Here](src/BinaryTreeLevelOrderTraversal.java) | Using Queue to do BFS |
 [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | 2018/6/10 | [Here](src/KthSmallestElementinaBST.java) | Do Binary Search on BST. It's just like do DFS on BST, so that we can visit nodes in order. And we record how many nodes we have visited, and once we visited Kth node, we return it. |
 [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | 2018/6/10 | [Here](src/BinaryTreeInorderTraversal.java) | Do DFS on Binary Tree. Visit left subtree firstly, then visit root, finally visit right subtree |
 [285. Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/) | 2018/6/10 | [Here](src/InorderSuccessorinBST.java) | do recursion along with passing a upperRight node |
 [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/description/) | 2018/6/10 | [Here](src/ValidateBinarySearchTree.java) | From bottom to top. Firstly check left subtree, then check right subtree, finally check root. |
+[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | 2018/6/11 | [Here](src/SymmetricTree.java) | <ul><li>Recursion.</li> <li>isMirror(left.right, right.left) && isMirror(left.left, right.right) && left.val == right.val</li></ul> |
+[104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | 2018/6/11 | [Here](src/MaximumDepthofBinaryTree.java) | BFS using Queue |
+[108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/) | 2018/6/11 | [Here](src/ConvertSortedArraytoBinarySearchTree.java) | Recursion + Property of **BALANCED** BST |
