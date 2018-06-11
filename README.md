@@ -81,6 +81,8 @@ Question | Done Date | Code | Note |
 [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/) | 2018/6/7 | [Here](src/BasicCalculatorII.java) | Stack, reverse polish expression |
 [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) | 2018/6/7 | [Here](src/BasicCalculatorIII.java) | <ul><li>Recursion to solve embedded expression closed by '()'</li><li>Stack to solve operators with diffrent priority</li></ul> |
 [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/) | 2018/6/8 | [Here](src/BinaryTreeZigzagLevelOrderTraversal.java) | Queue + boolean flag |
+[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | 2018/6/10 | [Here](src/BinaryTreeLevelOrderTraversal.java) | Using Queue to do BFS |
+[230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | 2018/6/10 | [Here](src/KthSmallestElementinaBST.java) | Do Binary Search on BST. It's just like do DFS on BST, so that we can visit nodes in order. And we record how many nodes we have visited, and once we visited Kth node, we return it. |
 
 
 
@@ -182,3 +184,5 @@ Question | Done Date | Code | Note |
 Question | Done Date | Code | Note |
 ----|----|-----|-----|
 [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/) | 2018/6/8 | [Here](src/BinaryTreeZigzagLevelOrderTraversal.java) | Queue + boolean flag |
+[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) | 2018/6/10 | [Here](src/BinaryTreeLevelOrderTraversal.java) | Using Queue to do BFS |
+[230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | 2018/6/10 | [Here](src/KthSmallestElementinaBST.java) | Do Binary Search on BST. It's just like do DFS on BST, so that we can visit nodes in order. And we record how many nodes we have visited, and once we visited Kth node, we return it. |
