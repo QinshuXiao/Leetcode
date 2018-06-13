@@ -95,6 +95,8 @@ Question | Done Date | Code | Note |
 [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | 2018/6/12 | [Here](src/SerializeandDeserializeBinaryTree.java) | Borrow ideas from Heap |
 [251. Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/) | 2018/6/12 | [Here](src/Flatten2DVector.java) | Index to show we're at the Col-th element in the Row-th list. When moving forward col and row, we need to care about empty list |
 [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | 2018/6/12 | [Here](src/KthSmallestElementinaSortedMatrix.java) | Two ways: <ul><li>PriorityQueue: Put element into PQ, along with each element, we also record their coordinates(x, y)</li><li>Binary Search: Just like the solution of **41. First Missing Positive**, We do binary search on values space of elements in matrix </li></ul> |
+[131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | 2018/6/12 | [Here](src/PalindromePartitioning.java) | DP for checking and finding Palindrome string. Backtracking for partitioning palindrome string. |
+[322. Coin Change](https://leetcode.com/problems/coin-change/description/) | 2018/6/12 | [Here](src/CoinChange.java) | DP |
 
 ## Array
 
@@ -146,6 +148,7 @@ Question | Done Date | Code | Note |
 [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/description/) | 2018/6/1 | [Here](src/MaximumSumof3NonOverlappingSubarrays.java) | DP, variance of Best Time to Buy and Sell Stocks |
 [251. Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/) | 2018/6/12 | [Here](src/Flatten2DVector.java) | Index to show we're at the Col-th element in the Row-th list. When moving forward col and row, we need to care about empty list |
 [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | 2018/6/12 | [Here](src/KthSmallestElementinaSortedMatrix.java) | Two ways: <ul><li>PriorityQueue: Put element into PQ, along with each element, we also record their coordinates(x, y)</li><li>Binary Search: Just like the solution of **41. First Missing Positive**, We do binary search on values space of elements in matrix </li></ul> |
+[131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | 2018/6/12 | [Here](src/PalindromePartitioning.java) | DP for checking and finding Palindrome string. Backtracking for partitioning palindrome string. |
 
 ## Linked List
 Question | Done Date | Code | Note |
