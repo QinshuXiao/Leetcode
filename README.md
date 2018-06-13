@@ -92,6 +92,9 @@ Question | Done Date | Code | Note |
 [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/) | 2018/6/11 | [Here](src/PopulatingNextRightPointersinEachNode.java) | <ul><li>Iteration. Do BFS</li><li>Recursion. connect Left Subtree, then connect right subtree, finally connect right boundary of left subtree with left boundary of right subtree.</li></ul> |
 [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) | 2018/6/11 | [Here](src/LowestCommonAncestorofaBinaryTree.java) | Recursion + From Bottom to top |
 [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | 2018/6/11 | [Here](src/BinaryTreeMaximumPathSum.java) | <ul><li>DP on Tree.</li> <li>Recursive function returns local maximum of path sum which passed through root.</li> <li>We passed a global variable in recursive function, where we possibly update global maximum.</li></ul> |
+[297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | 2018/6/12 | [Here](src/SerializeandDeserializeBinaryTree.java) | Borrow ideas from Heap |
+[251. Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/) | 2018/6/12 | [Here](src/Flatten2DVector.java) | Index to show we're at the Col-th element in the Row-th list. When moving forward col and row, we need to care about empty list |
+[378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | 2018/6/12 | [Here](src/KthSmallestElementinaSortedMatrix.java) | Two ways: <ul><li>PriorityQueue: Put element into PQ, along with each element, we also record their coordinates(x, y)</li><li>Binary Search: Just like the solution of **41. First Missing Positive**, We do binary search on values space of elements in matrix </li></ul> |
 
 ## Array
 
@@ -141,7 +144,8 @@ Question | Done Date | Code | Note |
 [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/) | 2018/5/29 | [Here](src/InsertDeleteGetRandomOone.java) | ArrayList + HashMap + record index in hashmap |
 [381. Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | 2018/5/30 | [Here](src/InsertDeleteGetRandomDuplicatesOone.java) | ArrayList + HashMap + record indexes using linkedlist |
 [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/description/) | 2018/6/1 | [Here](src/MaximumSumof3NonOverlappingSubarrays.java) | DP, variance of Best Time to Buy and Sell Stocks |
-
+[251. Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/) | 2018/6/12 | [Here](src/Flatten2DVector.java) | Index to show we're at the Col-th element in the Row-th list. When moving forward col and row, we need to care about empty list |
+[378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | 2018/6/12 | [Here](src/KthSmallestElementinaSortedMatrix.java) | Two ways: <ul><li>PriorityQueue: Put element into PQ, along with each element, we also record their coordinates(x, y)</li><li>Binary Search: Just like the solution of **41. First Missing Positive**, We do binary search on values space of elements in matrix </li></ul> |
 
 ## Linked List
 Question | Done Date | Code | Note |
@@ -204,3 +208,4 @@ Question | Done Date | Code | Note |
 [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/) | 2018/6/11 | [Here](src/LowestCommonAncestorofaBinarySearchTree.java) | Recursion + Property of BST |
 [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) | 2018/6/11 | [Here](src/LowestCommonAncestorofaBinaryTree.java) | Recursion + From Bottom to top |
 [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | 2018/6/11 | [Here](src/BinaryTreeMaximumPathSum.java) | <ul><li>DP on Tree.</li> <li>Recursive function returns local maximum of path sum which passed through root.</li> <li>We passed a global variable in recursive function, where we possibly update global maximum.</li></ul> |
+[297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | 2018/6/12 | [Here](src/SerializeandDeserializeBinaryTree.java) | Borrow ideas from Heap |
