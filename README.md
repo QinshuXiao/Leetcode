@@ -97,6 +97,10 @@ Question | Done Date | Code | Note |
 [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | 2018/6/12 | [Here](src/KthSmallestElementinaSortedMatrix.java) | Two ways: <ul><li>PriorityQueue: Put element into PQ, along with each element, we also record their coordinates(x, y)</li><li>Binary Search: Just like the solution of **41. First Missing Positive**, We do binary search on values space of elements in matrix </li></ul> |
 [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | 2018/6/12 | [Here](src/PalindromePartitioning.java) | DP for checking and finding Palindrome string. Backtracking for partitioning palindrome string. |
 [322. Coin Change](https://leetcode.com/problems/coin-change/description/) | 2018/6/12 | [Here](src/CoinChange.java) | DP |
+[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) | 2018/6/13 | [Here](src/SurroundedRegions.java) | DFS + Mark out node which's not killed |
+[207. Course Schedule](https://leetcode.com/problems/course-schedule/description/) | 2018/6/13 | [Here](src/CourseSchedule.java) | Topo sort |
+[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/) | 2018/6/13 | [Here](src/CourseScheduleII.java) | Topo Sort |
+[315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) | 2018/6/13 | [Here](src/CountofSmallerNumbersAfterSelf.java) | Get helps from Merge Sort |
 
 ## Array
 
@@ -149,6 +153,8 @@ Question | Done Date | Code | Note |
 [251. Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/) | 2018/6/12 | [Here](src/Flatten2DVector.java) | Index to show we're at the Col-th element in the Row-th list. When moving forward col and row, we need to care about empty list |
 [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | 2018/6/12 | [Here](src/KthSmallestElementinaSortedMatrix.java) | Two ways: <ul><li>PriorityQueue: Put element into PQ, along with each element, we also record their coordinates(x, y)</li><li>Binary Search: Just like the solution of **41. First Missing Positive**, We do binary search on values space of elements in matrix </li></ul> |
 [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | 2018/6/12 | [Here](src/PalindromePartitioning.java) | DP for checking and finding Palindrome string. Backtracking for partitioning palindrome string. |
+[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) | 2018/6/13 | [Here](src/SurroundedRegions.java) | DFS + Mark out node which's not killed |
+[315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) | 2018/6/13 | [Here](src/CountofSmallerNumbersAfterSelf.java) | Get helps from Merge Sort |
 
 ## Linked List
 Question | Done Date | Code | Note |
@@ -212,3 +218,10 @@ Question | Done Date | Code | Note |
 [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) | 2018/6/11 | [Here](src/LowestCommonAncestorofaBinaryTree.java) | Recursion + From Bottom to top |
 [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | 2018/6/11 | [Here](src/BinaryTreeMaximumPathSum.java) | <ul><li>DP on Tree.</li> <li>Recursive function returns local maximum of path sum which passed through root.</li> <li>We passed a global variable in recursive function, where we possibly update global maximum.</li></ul> |
 [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | 2018/6/12 | [Here](src/SerializeandDeserializeBinaryTree.java) | Borrow ideas from Heap |
+
+## Graph
+Question | Done Date | Code | Note |
+----|----|-----|-----|
+[207. Course Schedule](https://leetcode.com/problems/course-schedule/description/) | 2018/6/13 | [Here](src/CourseSchedule.java) | Topo sort |
+[210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/) | 2018/6/13 | [Here](src/CourseScheduleII.java) | Topo Sort |
+
