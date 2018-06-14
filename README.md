@@ -101,6 +101,7 @@ Question | Done Date | Code | Note |
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/description/) | 2018/6/13 | [Here](src/CourseSchedule.java) | Topo sort |
 [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/) | 2018/6/13 | [Here](src/CourseScheduleII.java) | Topo Sort |
 [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) | 2018/6/13 | [Here](src/CountofSmallerNumbersAfterSelf.java) | Get helps from Merge Sort |
+[454. 4Sum II](https://leetcode.com/problems/4sum-ii/description/) | 2018/6/13 | [Here](src/FourSumII.java) | Recall HashMap way in 2Sum. Turn 4Sum to 2Sum. See A[i]+B[j] as one, and C[k]+D[l] as the other. |
 
 ## Array
 
@@ -155,6 +156,7 @@ Question | Done Date | Code | Note |
 [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | 2018/6/12 | [Here](src/PalindromePartitioning.java) | DP for checking and finding Palindrome string. Backtracking for partitioning palindrome string. |
 [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) | 2018/6/13 | [Here](src/SurroundedRegions.java) | DFS + Mark out node which's not killed |
 [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) | 2018/6/13 | [Here](src/CountofSmallerNumbersAfterSelf.java) | Get helps from Merge Sort |
+[454. 4Sum II](https://leetcode.com/problems/4sum-ii/description/) | 2018/6/13 | [Here](src/FourSumII.java) | Recall HashMap way in 2Sum. Turn 4Sum to 2Sum. See A[i]+B[j] as one, and C[k]+D[l] as the other. |
 
 ## Linked List
 Question | Done Date | Code | Note |
