@@ -102,6 +102,8 @@ Question | Done Date | Code | Note |
 [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/) | 2018/6/13 | [Here](src/CourseScheduleII.java) | Topo Sort |
 [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) | 2018/6/13 | [Here](src/CountofSmallerNumbersAfterSelf.java) | Get helps from Merge Sort |
 [454. 4Sum II](https://leetcode.com/problems/4sum-ii/description/) | 2018/6/13 | [Here](src/FourSumII.java) | Recall HashMap way in 2Sum. Turn 4Sum to 2Sum. See A[i]+B[j] as one, and C[k]+D[l] as the other. |
+[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | [Here](src/LongestIncreasingSubsequence.java) | Build LIS. Use binary search to find the lowerBoundIdx in the LIS when we meet an new number |
+[127. Word Ladder](https://leetcode.com/problems/word-ladder/description/) | 2018/6/14 | [Here](src/WordLadder.java) | Change one character in string to build a new string. BFS |
 
 ## Array
 
@@ -157,6 +159,7 @@ Question | Done Date | Code | Note |
 [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) | 2018/6/13 | [Here](src/SurroundedRegions.java) | DFS + Mark out node which's not killed |
 [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) | 2018/6/13 | [Here](src/CountofSmallerNumbersAfterSelf.java) | Get helps from Merge Sort |
 [454. 4Sum II](https://leetcode.com/problems/4sum-ii/description/) | 2018/6/13 | [Here](src/FourSumII.java) | Recall HashMap way in 2Sum. Turn 4Sum to 2Sum. See A[i]+B[j] as one, and C[k]+D[l] as the other. |
+[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | [Here](src/LongestIncreasingSubsequence.java) | Build LIS. Use binary search to find the lowerBoundIdx in the LIS when we meet an new number |
 
 ## Linked List
 Question | Done Date | Code | Note |
@@ -173,6 +176,7 @@ Question | Done Date | Code | Note |
 [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/) | 2018/6/2 | [Here](src/OddEvenLinkedList.java) | put nodes in one list to another list |
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | 2018/6/2 | [Here](src/MergekSortedLists.java) | Priority Queue |
 [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | 2018/6/2 | [Here](src/CopyListwithRandomPointer.java) | Firstly, copy label and put new generated node right behind original node; Then copy random pointer; Finally, extract copied nodes and reset original list |
+
 
 ## String
 
@@ -220,6 +224,7 @@ Question | Done Date | Code | Note |
 [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) | 2018/6/11 | [Here](src/LowestCommonAncestorofaBinaryTree.java) | Recursion + From Bottom to top |
 [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | 2018/6/11 | [Here](src/BinaryTreeMaximumPathSum.java) | <ul><li>DP on Tree.</li> <li>Recursive function returns local maximum of path sum which passed through root.</li> <li>We passed a global variable in recursive function, where we possibly update global maximum.</li></ul> |
 [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | 2018/6/12 | [Here](src/SerializeandDeserializeBinaryTree.java) | Borrow ideas from Heap |
+[127. Word Ladder](https://leetcode.com/problems/word-ladder/description/) | 2018/6/14 | [Here](src/WordLadder.java) | Change one character in string to build a new string. BFS |
 
 ## Graph
 Question | Done Date | Code | Note |
