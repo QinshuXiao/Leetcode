@@ -43,7 +43,7 @@ public class ReverseBits {
         if(n == 0 || len == 1) return n;
 
         int halfLen = len >> 1;
-        
+
         // extract Left part and Right part
         int leftBits = n >>> halfLen;
         int rightBits = n & ((1 << halfLen) - 1);

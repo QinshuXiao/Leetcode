@@ -106,6 +106,7 @@ Question | Done Date | Code | Note |
 [127. Word Ladder](https://leetcode.com/problems/word-ladder/description/) | 2018/6/14 | [Here](src/WordLadder.java) | Change one character in string to build a new string. BFS |
 [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/) | 2018/6/18 | [Here](src/AlienDictionary.java) | Topo Sort |
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | 2018/6/18 | [Here](src/ReverseBits.java) | <ul><li>Iteration + Bit Operation</li><li>Divide & Conquer</li></ul> |
+[329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) | 2018/6/18 | [Here](src/LongestIncreasingPathinaMatrix.java) | DFS + Memoization |
 
 ## Array
 
@@ -240,3 +241,8 @@ Question | Done Date | Code | Note |
 Question | Done Date | Code | Note |
 ----|----|-----|-----|
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | 2018/6/18 | [Here](src/ReverseBits.java) | <ul><li>Iteration + Bit Operation</li><li>Divide & Conquer</li></ul> |
+
+## Matrix
+Question | Done Date | Code | Note |
+----|----|-----|-----|
+[329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) | 2018/6/18 | [Here](src/LongestIncreasingPathinaMatrix.java) | DFS + Memoization |
