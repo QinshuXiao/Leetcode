@@ -105,6 +105,7 @@ Question | Done Date | Code | Note |
 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | 2018/6/14 | [Here](src/LongestIncreasingSubsequence.java) | Build LIS. Use binary search to find the lowerBoundIdx in the LIS when we meet an new number |
 [127. Word Ladder](https://leetcode.com/problems/word-ladder/description/) | 2018/6/14 | [Here](src/WordLadder.java) | Change one character in string to build a new string. BFS |
 [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/) | 2018/6/18 | [Here](src/AlienDictionary.java) | Topo Sort |
+[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | 2018/6/18 | [Here](src/ReverseBits.java) | <ul><li>Iteration + Bit Operation</li><li>Divide & Conquer</li></ul> |
 
 ## Array
 
@@ -235,3 +236,7 @@ Question | Done Date | Code | Note |
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/description/) | 2018/6/13 | [Here](src/CourseSchedule.java) | Topo sort |
 [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/) | 2018/6/13 | [Here](src/CourseScheduleII.java) | Topo Sort |
 
+## Math
+Question | Done Date | Code | Note |
+----|----|-----|-----|
+[190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | 2018/6/18 | [Here](src/ReverseBits.java) | <ul><li>Iteration + Bit Operation</li><li>Divide & Conquer</li></ul> |
