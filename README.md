@@ -102,8 +102,9 @@ Question | Done Date | Code | Note |
 [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/) | 2018/6/13 | [Here](src/CourseScheduleII.java) | Topo Sort |
 [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) | 2018/6/13 | [Here](src/CountofSmallerNumbersAfterSelf.java) | Get helps from Merge Sort |
 [454. 4Sum II](https://leetcode.com/problems/4sum-ii/description/) | 2018/6/13 | [Here](src/FourSumII.java) | Recall HashMap way in 2Sum. Turn 4Sum to 2Sum. See A[i]+B[j] as one, and C[k]+D[l] as the other. |
-[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | [Here](src/LongestIncreasingSubsequence.java) | Build LIS. Use binary search to find the lowerBoundIdx in the LIS when we meet an new number |
+[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | 2018/6/14 | [Here](src/LongestIncreasingSubsequence.java) | Build LIS. Use binary search to find the lowerBoundIdx in the LIS when we meet an new number |
 [127. Word Ladder](https://leetcode.com/problems/word-ladder/description/) | 2018/6/14 | [Here](src/WordLadder.java) | Change one character in string to build a new string. BFS |
+[269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/) | 2018/6/18 | [Here](src/AlienDictionary.java) | Topo Sort |
 
 ## Array
 
@@ -159,7 +160,9 @@ Question | Done Date | Code | Note |
 [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) | 2018/6/13 | [Here](src/SurroundedRegions.java) | DFS + Mark out node which's not killed |
 [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) | 2018/6/13 | [Here](src/CountofSmallerNumbersAfterSelf.java) | Get helps from Merge Sort |
 [454. 4Sum II](https://leetcode.com/problems/4sum-ii/description/) | 2018/6/13 | [Here](src/FourSumII.java) | Recall HashMap way in 2Sum. Turn 4Sum to 2Sum. See A[i]+B[j] as one, and C[k]+D[l] as the other. |
-[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | [Here](src/LongestIncreasingSubsequence.java) | Build LIS. Use binary search to find the lowerBoundIdx in the LIS when we meet an new number |
+[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | 2018/6/14 | [Here](src/LongestIncreasingSubsequence.java) | Build LIS. Use binary search to find the lowerBoundIdx in the LIS when we meet an new number |
+[269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/) | 2018/6/18 | [Here](src/AlienDictionary.java) | Topo Sort |
+
 
 ## Linked List
 Question | Done Date | Code | Note |
