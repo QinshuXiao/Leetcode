@@ -108,6 +108,7 @@ Question | Done Date | Code | Note |
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | 2018/6/18 | [Here](src/ReverseBits.java) | <ul><li>Iteration + Bit Operation</li><li>Divide & Conquer</li></ul> |
 [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) | 2018/6/18 | [Here](src/LongestIncreasingPathinaMatrix.java) | DFS + Memoization |
 [212. Word Search II](https://leetcode.com/problems/word-search-ii/description/) | 2018/6/19 | [Here](src/WordSearchII.java) | Trie Tree stores dictionary, DFS searches words in mtx |
+[334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/) | 2018/6/20 | [Here](src/IncreasingTripletSubsequence.java) | Borrow Idea from **300. Longest Increasing Subsequence**. If one sequence contains Increasing Triple Subsequence, it means this array contains at least one increasing subsequence with 3 numbers. |
 
 ## Array
 Question | Done Date | Code | Note |
@@ -157,12 +158,12 @@ Question | Done Date | Code | Note |
 [381. Insert Delete GetRandom O(1) - Duplicates allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/description/) | 2018/5/30 | [Here](src/InsertDeleteGetRandomDuplicatesOone.java) | ArrayList + HashMap + record indexes using linkedlist |
 [689. Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/description/) | 2018/6/1 | [Here](src/MaximumSumof3NonOverlappingSubarrays.java) | DP, variance of Best Time to Buy and Sell Stocks |
 [251. Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/) | 2018/6/12 | [Here](src/Flatten2DVector.java) | Index to show we're at the Col-th element in the Row-th list. When moving forward col and row, we need to care about empty list |
-[378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | 2018/6/12 | [Here](src/KthSmallestElementinaSortedMatrix.java) | Two ways: <ul><li>PriorityQueue: Put element into PQ, along with each element, we also record their coordinates(x, y)</li><li>Binary Search: Just like the solution of **41. First Missing Positive**, We do binary search on values space of elements in matrix </li></ul> |
 [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | 2018/6/12 | [Here](src/PalindromePartitioning.java) | DP for checking and finding Palindrome string. Backtracking for partitioning palindrome string. |
 [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/) | 2018/6/13 | [Here](src/CountofSmallerNumbersAfterSelf.java) | Get helps from Merge Sort |
 [454. 4Sum II](https://leetcode.com/problems/4sum-ii/description/) | 2018/6/13 | [Here](src/FourSumII.java) | Recall HashMap way in 2Sum. Turn 4Sum to 2Sum. See A[i]+B[j] as one, and C[k]+D[l] as the other. |
 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | 2018/6/14 | [Here](src/LongestIncreasingSubsequence.java) | Build LIS. Use binary search to find the lowerBoundIdx in the LIS when we meet an new number |
 [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/) | 2018/6/18 | [Here](src/AlienDictionary.java) | Topo Sort |
+[334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/) | 2018/6/20 | [Here](src/IncreasingTripletSubsequence.java) | Borrow Idea from **300. Longest Increasing Subsequence**. If one sequence contains Increasing Triple Subsequence, it means this array contains at least one increasing subsequence with 3 numbers. |
 
 
 ## Linked List
@@ -244,6 +245,7 @@ Question | Done Date | Code | Note |
 ## Matrix
 Question | Done Date | Code | Note |
 ----|----|-----|-----|
+[378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/) | 2018/6/12 | [Here](src/KthSmallestElementinaSortedMatrix.java) | Two ways: <ul><li>PriorityQueue: Put element into PQ, along with each element, we also record their coordinates(x, y)</li><li>Binary Search: Just like the solution of **41. First Missing Positive**, We do binary search on values space of elements in matrix </li></ul> |
 [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) | 2018/6/13 | [Here](src/SurroundedRegions.java) | DFS + Mark out node which's not killed |
 [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) | 2018/6/18 | [Here](src/LongestIncreasingPathinaMatrix.java) | DFS + Memoization |
 [212. Word Search II](https://leetcode.com/problems/word-search-ii/description/) | 2018/6/19 | [Here](src/WordSearchII.java) | Trie Tree stores dictionary, DFS searches words in mtx |
