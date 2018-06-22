@@ -109,6 +109,7 @@ Question | Done Date | Code | Note |
 [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) | 2018/6/18 | [Here](src/LongestIncreasingPathinaMatrix.java) | DFS + Memoization |
 [212. Word Search II](https://leetcode.com/problems/word-search-ii/description/) | 2018/6/19 | [Here](src/WordSearchII.java) | Trie Tree stores dictionary, DFS searches words in mtx |
 [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/) | 2018/6/20 | [Here](src/IncreasingTripletSubsequence.java) | Borrow Idea from **300. Longest Increasing Subsequence**. If one sequence contains Increasing Triple Subsequence, it means this array contains at least one increasing subsequence with 3 numbers. |
+[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | 2018/6/21 | [Here](src/KthLargestElementinanArray.java) | <ul><li>Priority Queue</li><li>Quick select (partition in QuickSort)</li></ul> |
 
 ## Array
 Question | Done Date | Code | Note |
@@ -164,6 +165,7 @@ Question | Done Date | Code | Note |
 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) | 2018/6/14 | [Here](src/LongestIncreasingSubsequence.java) | Build LIS. Use binary search to find the lowerBoundIdx in the LIS when we meet an new number |
 [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/) | 2018/6/18 | [Here](src/AlienDictionary.java) | Topo Sort |
 [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/) | 2018/6/20 | [Here](src/IncreasingTripletSubsequence.java) | Borrow Idea from **300. Longest Increasing Subsequence**. If one sequence contains Increasing Triple Subsequence, it means this array contains at least one increasing subsequence with 3 numbers. |
+[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | 2018/6/21 | [Here](src/KthLargestElementinanArray.java) | <ul><li>Priority Queue</li><li>Quick select (partition in QuickSort)</li></ul> |
 
 
 ## Linked List
