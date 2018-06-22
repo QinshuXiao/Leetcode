@@ -110,6 +110,8 @@ Question | Done Date | Code | Note |
 [212. Word Search II](https://leetcode.com/problems/word-search-ii/description/) | 2018/6/19 | [Here](src/WordSearchII.java) | Trie Tree stores dictionary, DFS searches words in mtx |
 [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/) | 2018/6/20 | [Here](src/IncreasingTripletSubsequence.java) | Borrow Idea from **300. Longest Increasing Subsequence**. If one sequence contains Increasing Triple Subsequence, it means this array contains at least one increasing subsequence with 3 numbers. |
 [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | 2018/6/21 | [Here](src/KthLargestElementinanArray.java) | <ul><li>Priority Queue</li><li>Quick select (partition in QuickSort)</li></ul> |
+[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | 2018/6/21 | [Here](src/Trie.java) | Fundamental implementation of Trie |
+[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | 2018/6/22 | [Here](src/MedianFinder.java) | Two PriorityQueues: maxHeap + minHeap |
 
 ## Array
 Question | Done Date | Code | Note |
@@ -232,6 +234,7 @@ Question | Done Date | Code | Note |
 [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) | 2018/6/11 | [Here](src/BinaryTreeMaximumPathSum.java) | <ul><li>DP on Tree.</li> <li>Recursive function returns local maximum of path sum which passed through root.</li> <li>We passed a global variable in recursive function, where we possibly update global maximum.</li></ul> |
 [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | 2018/6/12 | [Here](src/SerializeandDeserializeBinaryTree.java) | Borrow ideas from Heap |
 [127. Word Ladder](https://leetcode.com/problems/word-ladder/description/) | 2018/6/14 | [Here](src/WordLadder.java) | Change one character in string to build a new string. BFS |
+[208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | 2018/6/21 | [Here](src/Trie.java) | Fundamental implementation of Trie |
 
 ## Graph
 Question | Done Date | Code | Note |
@@ -251,3 +254,8 @@ Question | Done Date | Code | Note |
 [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) | 2018/6/13 | [Here](src/SurroundedRegions.java) | DFS + Mark out node which's not killed |
 [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) | 2018/6/18 | [Here](src/LongestIncreasingPathinaMatrix.java) | DFS + Memoization |
 [212. Word Search II](https://leetcode.com/problems/word-search-ii/description/) | 2018/6/19 | [Here](src/WordSearchII.java) | Trie Tree stores dictionary, DFS searches words in mtx |
+
+## Design
+Question | Done Date | Code | Note |
+----|----|-----|-----|
+[295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | 2018/6/22 | [Here](src/MedianFinder.java) | Two PriorityQueues: maxHeap + minHeap |
