@@ -34,7 +34,16 @@ public class MedianFinder {
     }
 
     /**
-     * 
+     * We separate numbers into two part. Numbers less than or equal to median go into maxHeap, others go into minHeap
+     *
+     * When we add an new number, we firstly need to determine in which Heap we should put this number:
+     *  (1) If it is less than or equal to the top number of maxHeap, add it into maxHeap
+     *  (2) otherwise, add it into minHeap
+     *
+     * Then we need to make sure the balance of two heap:
+     *  maxHeap.size - minHeap.size = 0 or 1
+     *
+     * We need to do some adjusting jobs if the balance was broken.
      *
      */
     public void addNum(int num) {
@@ -50,6 +59,11 @@ public class MedianFinder {
             maxHeap.offer(minHeap.poll());
         }
     }
+
+    /**
+     * If we have odd numbers on hand, the median should be the top number in maxHeap.
+     * If we have even numbers on hand, the median is the average number between the top number of maxHeap and the top number of minHeap
+     */
 
     public double findMedian() {
         if(maxHeap.size() > minHeap.size()) return (double)maxHeap.peek();

@@ -185,6 +185,8 @@ Question | Done Date | Code | Note |
 [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/) | 2018/6/2 | [Here](src/OddEvenLinkedList.java) | put nodes in one list to another list |
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | 2018/6/2 | [Here](src/MergekSortedLists.java) | Priority Queue |
 [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | 2018/6/2 | [Here](src/CopyListwithRandomPointer.java) | Firstly, copy label and put new generated node right behind original node; Then copy random pointer; Finally, extract copied nodes and reset original list |
+[143. Reorder List](https://leetcode.com/problems/reorder-list/description/) | 2018/6/22 | [Here](src/ReorderList.java) | <ul><li>Find middle node and tail node</li><li>Reverse list from middle node to tail</li><li>merge two lists: one is from head to half, the other is leading by tail.</li></ul> |
+[147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) | 2018/6/23 | [Here](src/InsertionSortList.java) | Insertion Sort |
 
 
 ## String
