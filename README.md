@@ -168,6 +168,8 @@ Question | Done Date | Code | Note |
 [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/) | 2018/6/18 | [Here](src/AlienDictionary.java) | Topo Sort |
 [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/) | 2018/6/20 | [Here](src/IncreasingTripletSubsequence.java) | Borrow Idea from **300. Longest Increasing Subsequence**. If one sequence contains Increasing Triple Subsequence, it means this array contains at least one increasing subsequence with 3 numbers. |
 [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | 2018/6/21 | [Here](src/KthLargestElementinanArray.java) | <ul><li>Priority Queue</li><li>Quick select (partition in QuickSort)</li></ul> |
+[845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/) | 2018/6/25 | [Here](src/LongestMountaininArray.java) | Two Pointers way: <ul><li>Firstly find the peak (_be careful about the platform, which is not the actual peak_)</li><li>Secondly find the bottom</li></ul>|
+[719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | 2018/6/25 | [Here](src/FindKthSmallestPairDistance.java) | Binary Search on space of possible answers: We can know minimal distance and maximal distance from sorted array, then binary search to find k-th distance. |
 
 
 ## Linked List
@@ -217,6 +219,7 @@ Question | Done Date | Code | Note |
 [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/description/) | 2018/6/7 | [Here](src/BasicCalculator.java) | <ul><li>Recursion</li><li>Or using math logics</li></ul> |
 [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/) | 2018/6/7 | [Here](src/BasicCalculatorII.java) | Stack, reverse polish expression |
 [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) | 2018/6/7 | [Here](src/BasicCalculatorIII.java) | <ul><li>Recursion to solve embedded expression closed by '()'</li><li>Stack to solve operators with diffrent priority</li></ul> |
+[844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/) | 2018/6/25 | [Here](src/BackspaceStringCompare.java) | Go from tail to head. If meet '#', then skip previous non-'#' character |
 
 ## Tree
 Question | Done Date | Code | Note |
@@ -249,6 +252,7 @@ Question | Done Date | Code | Note |
 Question | Done Date | Code | Note |
 ----|----|-----|-----|
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | 2018/6/18 | [Here](src/ReverseBits.java) | <ul><li>Iteration + Bit Operation</li><li>Divide & Conquer</li></ul> |
+[836. Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/description/) | 2018/6/25 | [Here](src/RectangleOverlap.java) | Determined by relationship either between rec1's left-bottom and rec2's right-top, or between rec1's right-top and rec2's left-bottom |
 
 ## Matrix
 Question | Done Date | Code | Note |
