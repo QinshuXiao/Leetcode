@@ -187,6 +187,7 @@ Question | Done Date | Code | Note |
 [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | 2018/6/2 | [Here](src/CopyListwithRandomPointer.java) | Firstly, copy label and put new generated node right behind original node; Then copy random pointer; Finally, extract copied nodes and reset original list |
 [143. Reorder List](https://leetcode.com/problems/reorder-list/description/) | 2018/6/22 | [Here](src/ReorderList.java) | <ul><li>Find middle node and tail node</li><li>Reverse list from middle node to tail</li><li>merge two lists: one is from head to half, the other is leading by tail.</li></ul> |
 [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) | 2018/6/23 | [Here](src/InsertionSortList.java) | Insertion Sort |
+[24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | 2018/6/23 | [Here](src/SwapNodesinPairs.java) | Operations on Linked List: **Swap two nodes**  |
 
 
 ## String
