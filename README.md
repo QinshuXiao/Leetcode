@@ -112,6 +112,7 @@ Question | Done Date | Code | Note |
 [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | 2018/6/21 | [Here](src/KthLargestElementinanArray.java) | <ul><li>Priority Queue</li><li>Quick select (partition in QuickSort)</li></ul> |
 [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | 2018/6/21 | [Here](src/Trie.java) | Fundamental implementation of Trie |
 [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | 2018/6/22 | [Here](src/MedianFinder.java) | Two PriorityQueues: maxHeap + minHeap |
+[69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | 2018/6/30 | [Here](src/Sqrtx.java) | Binary Search |
 
 ## Array
 Question | Done Date | Code | Note |
@@ -253,6 +254,7 @@ Question | Done Date | Code | Note |
 ----|----|-----|-----|
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | 2018/6/18 | [Here](src/ReverseBits.java) | <ul><li>Iteration + Bit Operation</li><li>Divide & Conquer</li></ul> |
 [836. Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/description/) | 2018/6/25 | [Here](src/RectangleOverlap.java) | Determined by relationship either between rec1's left-bottom and rec2's right-top, or between rec1's right-top and rec2's left-bottom |
+[69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | 2018/6/30 | [Here](src/Sqrtx.java) | Binary Search |
 
 ## Matrix
 Question | Done Date | Code | Note |
