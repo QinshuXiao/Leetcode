@@ -113,6 +113,7 @@ Question | Done Date | Code | Note |
 [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | 2018/6/21 | [Here](src/Trie.java) | Fundamental implementation of Trie |
 [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | 2018/6/22 | [Here](src/MedianFinder.java) | Two PriorityQueues: maxHeap + minHeap |
 [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | 2018/6/30 | [Here](src/Sqrtx.java) | Binary Search |
+[384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/) | 2018/7/1 | [Here](src/ShuffleanArray.java) | How to shuffle an array? For each index i from array.length-1 to 0, you can find an random number j ranged from [0, i], then swap array[i] and array[j] |
 
 ## Array
 Question | Done Date | Code | Note |
@@ -171,6 +172,7 @@ Question | Done Date | Code | Note |
 [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | 2018/6/21 | [Here](src/KthLargestElementinanArray.java) | <ul><li>Priority Queue</li><li>Quick select (partition in QuickSort)</li></ul> |
 [845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/) | 2018/6/25 | [Here](src/LongestMountaininArray.java) | Two Pointers way: <ul><li>Firstly find the peak (_be careful about the platform, which is not the actual peak_)</li><li>Secondly find the bottom</li></ul>|
 [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | 2018/6/25 | [Here](src/FindKthSmallestPairDistance.java) | Binary Search on space of possible answers: We can know minimal distance and maximal distance from sorted array, then binary search to find k-th distance. |
+[384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/) | 2018/7/1 | [Here](src/ShuffleanArray.java) | How to shuffle an array? For each index i from array.length-1 to 0, you can find an random number j ranged from [0, i], then swap array[i] and array[j] |
 
 
 ## Linked List
@@ -191,6 +193,7 @@ Question | Done Date | Code | Note |
 [143. Reorder List](https://leetcode.com/problems/reorder-list/description/) | 2018/6/22 | [Here](src/ReorderList.java) | <ul><li>Find middle node and tail node</li><li>Reverse list from middle node to tail</li><li>merge two lists: one is from head to half, the other is leading by tail.</li></ul> |
 [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) | 2018/6/23 | [Here](src/InsertionSortList.java) | Insertion Sort |
 [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | 2018/6/23 | [Here](src/SwapNodesinPairs.java) | Operations on Linked List: **Swap two nodes**  |
+[92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/) | 2018/7/1 | [Here](src/ReverseLinkedListII.java) | Firstly determine start point and end point. Then reverse |
 
 
 ## String
