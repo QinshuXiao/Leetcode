@@ -114,6 +114,7 @@ Question | Done Date | Code | Note |
 [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | 2018/6/22 | [Here](src/MedianFinder.java) | Two PriorityQueues: maxHeap + minHeap |
 [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | 2018/6/30 | [Here](src/Sqrtx.java) | Binary Search |
 [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/) | 2018/7/1 | [Here](src/ShuffleanArray.java) | How to shuffle an array? For each index i from array.length-1 to 0, you can find an random number j ranged from [0, i], then swap array[i] and array[j] |
+[253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) | 2018/7/3 | [Here](src/MeetingRoomsII.java) | 1st solution: Using TreeMap; 2nd Solution: using priority queue |
 
 ## Array
 Question | Done Date | Code | Note |
@@ -173,6 +174,7 @@ Question | Done Date | Code | Note |
 [845. Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/description/) | 2018/6/25 | [Here](src/LongestMountaininArray.java) | Two Pointers way: <ul><li>Firstly find the peak (_be careful about the platform, which is not the actual peak_)</li><li>Secondly find the bottom</li></ul>|
 [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) | 2018/6/25 | [Here](src/FindKthSmallestPairDistance.java) | Binary Search on space of possible answers: We can know minimal distance and maximal distance from sorted array, then binary search to find k-th distance. |
 [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/) | 2018/7/1 | [Here](src/ShuffleanArray.java) | How to shuffle an array? For each index i from array.length-1 to 0, you can find an random number j ranged from [0, i], then swap array[i] and array[j] |
+[253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) | 2018/7/3 | [Here](src/MeetingRoomsII.java) | 1st solution: Using TreeMap; 2nd Solution: using priority queue |
 
 
 ## Linked List
@@ -184,6 +186,7 @@ Question | Done Date | Code | Note |
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | 2018/6/1 | [Here](src/AddTwoNumbers.java) | two pointers, advacend bit |
 [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | 2018/6/1 | [Here](src/IntersectionofTwoLinkedLists.java) | Two pointers, finding entry point of the circular list |
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | 2018/6/1 | [Here](src/LinkedListCycle.java) | Two pointers, one moves forward by 2 steps while the other moves forward by 1 step. |
+[142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) | 2018/7/3 | [Here](src/LinkedListCycleII.java) | <ul><li>Firstly, use **fast-pointer & slow-pointer** to find whether there are cycle in linkedlist</li><li>Then we find entry of that cycle by:<ul><li>Start by head pointer and current slow pointer, they move forward by one step each time.</li><li>The node where they meet each other is the entry of cycle.</li></ul></li></ul> |
 [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | 2018/6/1 | [Here](src/DeleteNodeinaLinkedList.java) | Set node's value to next node's value. Like the way we use to delete a value in the array |
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | 2018/6/1 | [Here](src/ReverseLinkedList.java) | Two ways: 1. recursion; 2. pinpoint tail, and then continuously move head to the next of tail, until tail is head. |
 [148. Sort List](https://leetcode.com/problems/sort-list/description/) | 2018/6/2 | [Here](src/SortList.java) | Merge Sort |
