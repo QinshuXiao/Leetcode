@@ -115,6 +115,7 @@ Question | Done Date | Code | Note |
 [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | 2018/6/30 | [Here](src/Sqrtx.java) | Binary Search |
 [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/) | 2018/7/1 | [Here](src/ShuffleanArray.java) | How to shuffle an array? For each index i from array.length-1 to 0, you can find an random number j ranged from [0, i], then swap array[i] and array[j] |
 [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) | 2018/7/3 | [Here](src/MeetingRoomsII.java) | 1st solution: Using TreeMap; 2nd Solution: using priority queue |
+[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | 2018/7/6 | [Here](src/ValidAnagram.java) | <ul>Two solutions:<li>1. Sort two Strings, and then compare them.</li><li>2. Using Array to store appearances of each character</li></ul> |
 
 ## Array
 Question | Done Date | Code | Note |
@@ -227,6 +228,7 @@ Question | Done Date | Code | Note |
 [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/description/) | 2018/6/7 | [Here](src/BasicCalculatorII.java) | Stack, reverse polish expression |
 [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) | 2018/6/7 | [Here](src/BasicCalculatorIII.java) | <ul><li>Recursion to solve embedded expression closed by '()'</li><li>Stack to solve operators with diffrent priority</li></ul> |
 [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/) | 2018/6/25 | [Here](src/BackspaceStringCompare.java) | Go from tail to head. If meet '#', then skip previous non-'#' character |
+[242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | 2018/7/6 | [Here](src/ValidAnagram.java) | <ul>Two solutions:<li>1. Sort two Strings, and then compare them.</li><li>2. Using Array to store appearances of each character</li></ul> |
 
 ## Tree
 Question | Done Date | Code | Note |
