@@ -116,6 +116,8 @@ Question | Done Date | Code | Note |
 [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/) | 2018/7/1 | [Here](src/ShuffleanArray.java) | How to shuffle an array? For each index i from array.length-1 to 0, you can find an random number j ranged from [0, i], then swap array[i] and array[j] |
 [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) | 2018/7/3 | [Here](src/MeetingRoomsII.java) | 1st solution: Using TreeMap; 2nd Solution: using priority queue |
 [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | 2018/7/6 | [Here](src/ValidAnagram.java) | <ul>Two solutions:<li>1. Sort two Strings, and then compare them.</li><li>2. Using Array to store appearances of each character</li></ul> |
+[166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/description/) | 2018/7/6 | [Here](src/FractiontoRecurringDecimal.java) | 1. Using recursion to compute decimal 2. Using hashmap to deal with infinite circulating decimal |
+
 
 ## Array
 Question | Done Date | Code | Note |
@@ -263,6 +265,7 @@ Question | Done Date | Code | Note |
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | 2018/6/18 | [Here](src/ReverseBits.java) | <ul><li>Iteration + Bit Operation</li><li>Divide & Conquer</li></ul> |
 [836. Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/description/) | 2018/6/25 | [Here](src/RectangleOverlap.java) | Determined by relationship either between rec1's left-bottom and rec2's right-top, or between rec1's right-top and rec2's left-bottom |
 [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | 2018/6/30 | [Here](src/Sqrtx.java) | Binary Search |
+[166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/description/) | 2018/7/6 | [Here](src/FractiontoRecurringDecimal.java) | 1. Using recursion to compute decimal 2. Using hashmap to deal with infinite circulating decimal |
 
 ## Matrix
 Question | Done Date | Code | Note |
