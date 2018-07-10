@@ -71,6 +71,7 @@ Question | Done Date | Code | Note |
 [148. Sort List](https://leetcode.com/problems/sort-list/description/) | 2018/6/2 | [Here](src/SortList.java) | Merge Sort |
 [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/) | 2018/7/8 | [Here](src/MaxPointsonaLine.java) | <ul><li>1. Use HashMap to store "slope"</li><li>2. Normalized diffY and diffX based on their GCD. And generated a String as key in the HashMap, inorder to deal with Double's precision problem.</li></ul> |
 [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) | 2018/5/21 | [Here](src/MaximumProductSubarray.java) | DP |
+[155. Min Stack](https://leetcode.com/problems/min-stack/description/) | 2018/7/9 | [Here](src/MinStack.java) | Each time we push a new item, we need to push current Minimal value alongside. |
 [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | 2018/6/1 | [Here](src/IntersectionofTwoLinkedLists.java) | Two pointers, finding entry point of the circular list |
 [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/description/) | 2018/5/24 | [Here](src/FindPeakElement.java) | Binary Search |
 [163. Missing Ranges](https://leetcode.com/problems/missing-ranges/description/) | 2018/5/23 | [Here](src/MissingRanges.java) | Iteration, edge cases |
@@ -80,6 +81,7 @@ Question | Done Date | Code | Note |
 [189. Rotate Array](https://leetcode.com/problems/rotate-array/description/) | 2018/5/23 | [Here](src/RotateArray.java) | General way to rotate array (3 reverse) |
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | 2018/6/18 | [Here](src/ReverseBits.java) | <ul><li>Iteration + Bit Operation</li><li>Divide & Conquer</li></ul> |
 [198. House Robber](https://leetcode.com/problems/house-robber/description/) | 2018/7/8 | [Here](src/HouseRobber.java) | Easy DP |
+[200. Number of Islands](https://leetcode.com/problems/number-of-islands/description/) | 2018/7/9 | [Here](src/NumberofIslands.java) | Two solutions:<ul><li>1. Using DFS to "clear" a island when we meet an new island. However, this solution requires us to modify the input grid map</li><li>2. If we are not allowed to modify grid map, Get help from Union Find</li></ul> |
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | 2018/6/1 | [Here](src/ReverseLinkedList.java) | Two ways: 1. recursion; 2. pinpoint tail, and then continuously move head to the next of tail, until tail is head. |
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/description/) | 2018/6/13 | [Here](src/CourseSchedule.java) | Topo sort |
 [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | 2018/6/21 | [Here](src/Trie.java) | Fundamental implementation of Trie |
@@ -277,8 +279,10 @@ Question | Done Date | Code | Note |
 [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) | 2018/6/13 | [Here](src/SurroundedRegions.java) | DFS + Mark out node which's not killed |
 [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) | 2018/6/18 | [Here](src/LongestIncreasingPathinaMatrix.java) | DFS + Memoization |
 [212. Word Search II](https://leetcode.com/problems/word-search-ii/description/) | 2018/6/19 | [Here](src/WordSearchII.java) | Trie Tree stores dictionary, DFS searches words in mtx |
+[200. Number of Islands](https://leetcode.com/problems/number-of-islands/description/) | 2018/7/9 | [Here](src/NumberofIslands.java) | Two solutions:<ul><li>1. Using DFS to "clear" a island when we meet an new island. However, this solution requires us to modify the input grid map</li><li>2. If we are not allowed to modify grid map, Get help from Union Find</li></ul> |
 
 ## Design
 Question | Done Date | Code | Note |
 ----|----|-----|-----|
 [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | 2018/6/22 | [Here](src/MedianFinder.java) | Two PriorityQueues: maxHeap + minHeap |
+[155. Min Stack](https://leetcode.com/problems/min-stack/description/) | 2018/7/9 | [Here](src/MinStack.java) | Each time we push a new item, we need to push current Minimal value alongside. |
