@@ -66,10 +66,12 @@ Question | Done Date | Code | Note |
 [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | 2018/5/21 | [Here](src/LongestConsecutiveSequence.java) | HashMap |
 [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) | 2018/6/13 | [Here](src/SurroundedRegions.java) | DFS + Mark out node which's not killed |
 [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | 2018/6/12 | [Here](src/PalindromePartitioning.java) | DP for checking and finding Palindrome string. Backtracking for partitioning palindrome string. |
+[136. Single Number](https://leetcode.com/problems/single-number/description/) | 2018/7/11 | [Here](src/SingleNumber.java) | XOR |
 [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | 2018/6/2 | [Here](src/CopyListwithRandomPointer.java) | Firstly, copy label and put new generated node right behind original node; Then copy random pointer; Finally, extract copied nodes and reset original list |
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | 2018/6/1 | [Here](src/LinkedListCycle.java) | Two pointers, one moves forward by 2 steps while the other moves forward by 1 step. |
 [148. Sort List](https://leetcode.com/problems/sort-list/description/) | 2018/6/2 | [Here](src/SortList.java) | Merge Sort |
 [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/) | 2018/7/8 | [Here](src/MaxPointsonaLine.java) | <ul><li>1. Use HashMap to store "slope"</li><li>2. Normalized diffY and diffX based on their GCD. And generated a String as key in the HashMap, inorder to deal with Double's precision problem.</li></ul> |
+[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | 2018/7/11 | [Here](src/EvaluateReversePolishNotation.java) | Using Stack to store number we met. Each time we meet an operator, We do a computation on the top two numbers, then we push the result back to the top of stack. |
 [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) | 2018/5/21 | [Here](src/MaximumProductSubarray.java) | DP |
 [155. Min Stack](https://leetcode.com/problems/min-stack/description/) | 2018/7/9 | [Here](src/MinStack.java) | Each time we push a new item, we need to push current Minimal value alongside. |
 [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) | 2018/6/1 | [Here](src/IntersectionofTwoLinkedLists.java) | Two pointers, finding entry point of the circular list |
@@ -271,6 +273,8 @@ Question | Done Date | Code | Note |
 [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | 2018/6/30 | [Here](src/Sqrtx.java) | Binary Search |
 [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/description/) | 2018/7/6 | [Here](src/FractiontoRecurringDecimal.java) | 1. Using recursion to compute decimal 2. Using hashmap to deal with infinite circulating decimal |
 [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/) | 2018/7/8 | [Here](src/MaxPointsonaLine.java) | <ul><li>1. Use HashMap to store "slope"</li><li>2. Normalized diffY and diffX based on their GCD. And generated a String as key in the HashMap, inorder to deal with Double's precision problem.</li></ul> |
+[150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | 2018/7/11 | [Here](src/EvaluateReversePolishNotation.java) | Using Stack to store number we met. Each time we meet an operator, We do a computation on the top two numbers, then we push the result back to the top of stack. |
+[136. Single Number](https://leetcode.com/problems/single-number/description/) | 2018/7/11 | [Here](src/SingleNumber.java) | XOR |
 
 ## Matrix
 Question | Done Date | Code | Note |
