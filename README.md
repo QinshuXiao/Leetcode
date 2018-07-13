@@ -87,6 +87,7 @@ Question | Done Date | Code | Note |
 [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/description/) | 2018/6/18 | [Here](src/ReverseBits.java) | <ul><li>Iteration + Bit Operation</li><li>Divide & Conquer</li></ul> |
 [198. House Robber](https://leetcode.com/problems/house-robber/description/) | 2018/7/8 | [Here](src/HouseRobber.java) | Easy DP |
 [200. Number of Islands](https://leetcode.com/problems/number-of-islands/description/) | 2018/7/9 | [Here](src/NumberofIslands.java) | Two solutions:<ul><li>1. Using DFS to "clear" a island when we meet an new island. However, this solution requires us to modify the input grid map</li><li>2. If we are not allowed to modify grid map, Get help from Union Find</li></ul> |
+[202. Happy Number](https://leetcode.com/problems/happy-number/description/) | 2018/7/12 | [Here](src/HappyNumber.java) | Iteration + Using HashSet to record number we've met. |
 [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/) | 2018/6/1 | [Here](src/ReverseLinkedList.java) | Two ways: 1. recursion; 2. pinpoint tail, and then continuously move head to the next of tail, until tail is head. |
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/description/) | 2018/6/13 | [Here](src/CourseSchedule.java) | Topo sort |
 [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | 2018/6/21 | [Here](src/Trie.java) | Fundamental implementation of Trie |
@@ -281,6 +282,7 @@ Question | Done Date | Code | Note |
 [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | 2018/7/11 | [Here](src/EvaluateReversePolishNotation.java) | Using Stack to store number we met. Each time we meet an operator, We do a computation on the top two numbers, then we push the result back to the top of stack. |
 [136. Single Number](https://leetcode.com/problems/single-number/description/) | 2018/7/11 | [Here](src/SingleNumber.java) | XOR |
 [137. Single Number II](https://leetcode.com/problems/single-number-ii/description/) | 2018/7/12 | [Here](src/SingleNumberII.java) | Bitwise + State Machine |
+[202. Happy Number](https://leetcode.com/problems/happy-number/description/) | 2018/7/12 | [Here](src/HappyNumber.java) | Iteration + Using HashSet to record number we've met. |
 
 ## Matrix
 Question | Done Date | Code | Note |
