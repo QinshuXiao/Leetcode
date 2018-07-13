@@ -66,8 +66,11 @@ Question | Done Date | Code | Note |
 [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) | 2018/5/21 | [Here](src/LongestConsecutiveSequence.java) | HashMap |
 [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) | 2018/6/13 | [Here](src/SurroundedRegions.java) | DFS + Mark out node which's not killed |
 [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) | 2018/6/12 | [Here](src/PalindromePartitioning.java) | DP for checking and finding Palindrome string. Backtracking for partitioning palindrome string. |
+[134. Gas Station](https://leetcode.com/problems/gas-station/description/) | 2018/7/12 | [Here](src/GasStation.java) | Greedy. We need to find the peak of fuel "need" (the need of i is cost[i]-gas[i]). If we can run around a circuit successfully, the start point should be the next index of "need" peek. But if at the end the accumulated need is larger than 0, we cannot complete a circuit. |
 [136. Single Number](https://leetcode.com/problems/single-number/description/) | 2018/7/11 | [Here](src/SingleNumber.java) | XOR |
+[137. Single Number II](https://leetcode.com/problems/single-number-ii/description/) | 2018/7/12 | [Here](src/SingleNumberII.java) | Bitwise + State Machine |
 [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | 2018/6/2 | [Here](src/CopyListwithRandomPointer.java) | Firstly, copy label and put new generated node right behind original node; Then copy random pointer; Finally, extract copied nodes and reset original list |
+[139. Word Break](https://leetcode.com/problems/word-break/description/) | 2018/7/12 | [Here](src/WordBreak.java) | DP: DP[i] denotes whether we can break s[0:i-1] |
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | 2018/6/1 | [Here](src/LinkedListCycle.java) | Two pointers, one moves forward by 2 steps while the other moves forward by 1 step. |
 [148. Sort List](https://leetcode.com/problems/sort-list/description/) | 2018/6/2 | [Here](src/SortList.java) | Merge Sort |
 [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/) | 2018/7/8 | [Here](src/MaxPointsonaLine.java) | <ul><li>1. Use HashMap to store "slope"</li><li>2. Normalized diffY and diffX based on their GCD. And generated a String as key in the HashMap, inorder to deal with Double's precision problem.</li></ul> |
@@ -184,6 +187,7 @@ Question | Done Date | Code | Note |
 [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/) | 2018/7/1 | [Here](src/ShuffleanArray.java) | How to shuffle an array? For each index i from array.length-1 to 0, you can find an random number j ranged from [0, i], then swap array[i] and array[j] |
 [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) | 2018/7/3 | [Here](src/MeetingRoomsII.java) | 1st solution: Using TreeMap; 2nd Solution: using priority queue |
 [198. House Robber](https://leetcode.com/problems/house-robber/description/) | 2018/7/8 | [Here](src/HouseRobber.java) | Easy DP |
+[134. Gas Station](https://leetcode.com/problems/gas-station/description/) | 2018/7/12 | [Here](src/GasStation.java) | Greedy. We need to find the peak of fuel "need" (the need of i is cost[i]-gas[i]). If we can run around a circuit successfully, the start point should be the next index of "need" peek. But if at the end the accumulated need is larger than 0, we cannot complete a circuit. |
 
 
 ## Linked List
@@ -237,6 +241,7 @@ Question | Done Date | Code | Note |
 [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) | 2018/6/7 | [Here](src/BasicCalculatorIII.java) | <ul><li>Recursion to solve embedded expression closed by '()'</li><li>Stack to solve operators with diffrent priority</li></ul> |
 [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/) | 2018/6/25 | [Here](src/BackspaceStringCompare.java) | Go from tail to head. If meet '#', then skip previous non-'#' character |
 [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | 2018/7/6 | [Here](src/ValidAnagram.java) | <ul>Two solutions:<li>1. Sort two Strings, and then compare them.</li><li>2. Using Array to store appearances of each character</li></ul> |
+[139. Word Break](https://leetcode.com/problems/word-break/description/) | 2018/7/12 | [Here](src/WordBreak.java) | DP: DP[i] denotes whether we can break s[0:i-1] |
 
 ## Tree
 Question | Done Date | Code | Note |
@@ -275,6 +280,7 @@ Question | Done Date | Code | Note |
 [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/) | 2018/7/8 | [Here](src/MaxPointsonaLine.java) | <ul><li>1. Use HashMap to store "slope"</li><li>2. Normalized diffY and diffX based on their GCD. And generated a String as key in the HashMap, inorder to deal with Double's precision problem.</li></ul> |
 [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | 2018/7/11 | [Here](src/EvaluateReversePolishNotation.java) | Using Stack to store number we met. Each time we meet an operator, We do a computation on the top two numbers, then we push the result back to the top of stack. |
 [136. Single Number](https://leetcode.com/problems/single-number/description/) | 2018/7/11 | [Here](src/SingleNumber.java) | XOR |
+[137. Single Number II](https://leetcode.com/problems/single-number-ii/description/) | 2018/7/12 | [Here](src/SingleNumberII.java) | Bitwise + State Machine |
 
 ## Matrix
 Question | Done Date | Code | Note |
