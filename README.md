@@ -1,8 +1,9 @@
 # Leetcode
 ## Some nonsense
-Well, It's May 2018, I graduated last week, but I'm still seeking a job. I'm jobless right now .....  
+~~Well, It's May 2018, I graduated last week, but I'm still seeking a job. I'm jobless right now .....~~
+
+WOW, time is flying! It's May 2019, I have worked as a software engineer for Gemalto for around 1 year. Most of my work is to implement UI components for desktop App in Windows using WPF. I don't have lots of chances to touch data structure and algorithm .... I come back because I find out I have to keep familiar with data structures and algorithms and make sure I still have ability to solve algorithm problem quickly, because I never know when the next interview is coming... I don't want to waste any opportunities. All I can do is to make sure I am fully prepared when the chance is around the corner. 
   
-I hope I can record this journey.  
 **Trust The Process**
 
 ## Top interview problem
@@ -40,12 +41,14 @@ Question | Done Date | Code | Note |
 [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/) | 2018/5/28 | [Here](src/UniquePaths.java) | Classical DP |
 [66. Plus One](https://leetcode.com/problems/plus-one/description/) | 2018/5/28 | [Here](src/PlusOne.java) | Advanced bit |
 [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | 2018/6/30 | [Here](src/Sqrtx.java) | Binary Search |
+[72. Edit Distance](https://leetcode.com/problems/edit-distance/) | 2019/5/18 | [Here](src/EditDistance.java) | Classical DP |
 [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | 2018/5/25 | [Here](src/SetMatrixZeroes.java) | Take use of original matrix space |
 [75. Sort Colors](https://leetcode.com/problems/sort-colors/description/) | 2018/5/26 | [Here](src/SortColors.java) | Two pointer |
 [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | 2018/6/4 | [Here](src/MinimumWindowSubstring.java) | Same as above |
 [78. Subsets](https://leetcode.com/problems/subsets/description/) | 2018/5/25 | [Here](src/Subsets.java) | Backtracking (general way to solve subsets problem) |
 [79. Word Search](https://leetcode.com/problems/word-search/description/) | 2018/5/22 | [Here](src/WordSearch.java) | DFS |
 [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) | 2018/5/26 | [Here](src/LargestRectangleinHistogram.java) | For each number, find longest range in which it's the minimum with the help of **stack** |
+[87. Scramble String](https://leetcode.com/problems/scramble-string/) | 2018/5/14 | [Java](src/ScrambleString.java) | DFS: Suppose we are standing at index i. string A is scramble string of string B if:<ul> <li>isScramble(A[0,i], B[0,i]) && isScramble(A[i, end], B[i, end]</li></ul> Or:<ul><li>  isScramble(A[0,i], B[end-i, end]) && isScramble(A[i, end], B[0, end-i]</li> </ul> |
 [90. Subsets II](https://leetcode.com/problems/subsets-ii/description/) | 2018/5/25 | [Here](src/SubsetII.java) | Sort + Backtracking |
 [91. Decode Ways](https://leetcode.com/problems/decode-ways/description/) | 2018/6/4 | [Here](src/DecodeWays.java) | DP, edge cases, care about '0' |
 [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | 2018/6/10 | [Here](src/BinaryTreeInorderTraversal.java) | Do DFS on Binary Tree. Visit left subtree firstly, then visit root, finally visit right subtree |
@@ -72,6 +75,7 @@ Question | Done Date | Code | Note |
 [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | 2018/6/2 | [Here](src/CopyListwithRandomPointer.java) | Firstly, copy label and put new generated node right behind original node; Then copy random pointer; Finally, extract copied nodes and reset original list |
 [139. Word Break](https://leetcode.com/problems/word-break/description/) | 2018/7/12 | [Here](src/WordBreak.java) | DP: DP[i] denotes whether we can break s[0:i-1] |
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | 2018/6/1 | [Here](src/LinkedListCycle.java) | Two pointers, one moves forward by 2 steps while the other moves forward by 1 step. |
+[146. LRU Cache](https://leetcode.com/problems/lru-cache/) | 2019/5/15 | [Java](src/LRUCache.java) | <ul><li>Bidirection linked list as container</li> <li>Using hashMap to store key : node of linked list </li> <li>the tail of linked list will be removed when cache is full</li> <li> new coming value will go into the head of the list</li> <li>The most recent visit value will be extracted from the list and put to the head of the list</li> </ul>  |
 [148. Sort List](https://leetcode.com/problems/sort-list/description/) | 2018/6/2 | [Here](src/SortList.java) | Merge Sort |
 [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/) | 2018/7/8 | [Here](src/MaxPointsonaLine.java) | <ul><li>1. Use HashMap to store "slope"</li><li>2. Normalized diffY and diffX based on their GCD. And generated a String as key in the HashMap, inorder to deal with Double's precision problem.</li></ul> |
 [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | 2018/7/11 | [Here](src/EvaluateReversePolishNotation.java) | Using Stack to store number we met. Each time we meet an operator, We do a computation on the top two numbers, then we push the result back to the top of stack. |
@@ -126,7 +130,13 @@ Question | Done Date | Code | Note |
 [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/description/) | 2018/7/1 | [Here](src/ShuffleanArray.java) | How to shuffle an array? For each index i from array.length-1 to 0, you can find an random number j ranged from [0, i], then swap array[i] and array[j] |
 [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/) | 2018/6/4 | [Here](src/FirstUniqueCharacterinaString.java) | Using array to store appearance of lowercase character |
 [454. 4Sum II](https://leetcode.com/problems/4sum-ii/description/) | 2018/6/13 | [Here](src/FourSumII.java) | Recall HashMap way in 2Sum. Turn 4Sum to 2Sum. See A[i]+B[j] as one, and C[k]+D[l] as the other. |
+[695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | 2019/5/14 | [Java](MaxAreaofIsland.java) | Follow up to [the number of islands](https://leetcode.com/problems/number-of-islands/). Using DFS to find an island and count the area, and **eliminate** it.  |
+[712. Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 2019/5/18 | [Here](src/MinimumASCIIDeleteSumforTwoStrings.java) | It is very similar to [72. EditDistance](src/EditDistance.java). Classical DP |
 [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) | 2018/6/7 | [Here](src/BasicCalculatorIII.java) | <ul><li>Recursion to solve embedded expression closed by '()'</li><li>Stack to solve operators with diffrent priority</li></ul> |
+[841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | 2019/5/15 | [Java](src/KeysAndRooms.java) | <ul><li>Firstly convert the input string to a hashMap <room : [keys]>, which represents a graph structure</li><li>Classic DFS, nothing special. Using a boolean array to determine if a room is visiting or not</li></ul> |
+[851. Loud and Rich](https://leetcode.com/problems/loud-and-rich/)| 2019/5/16 | [Java](src/LoudAndRich.java)| <ul><li>the richness among people can be converted into a tree(using hashMap)</li><li>Then go through each person, populate the quietist person from top to bottom: If a node is quieter than the value which children nodes has stored, then update the answer for that children node and continue populating the result for the children nodes of that node</li></ul> |
+[872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | 2019/5/16 | <ul><li>[Java](src/LeafSimilarTree.js)</li><li>[JavaScript](JavaScript/LeafSimilarTree.js)</li></ul> | Using **DFS** to generate leaves string, then do comparison. |
+[934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | 2019/5/18 | [Java](src/ShortestBridge.java) | Another variance of [Number of islands](https://leetcode.com/problems/number-of-islands/). Still using DFS to find islands. And because there are only 2 islands, we can mark the found island using '1' and '2'. Then using DFS to find the shortest bridge between 2 islands. <li>Small performance improvement tip: if we use a hashset to store the locations of island 2, we can know if a bridge reaches island 2 in O(1) when we are doing DFS</li>|
 
 ## Array
 Question | Done Date | Code | Note |
@@ -243,6 +253,9 @@ Question | Done Date | Code | Note |
 [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/) | 2018/6/25 | [Here](src/BackspaceStringCompare.java) | Go from tail to head. If meet '#', then skip previous non-'#' character |
 [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | 2018/7/6 | [Here](src/ValidAnagram.java) | <ul>Two solutions:<li>1. Sort two Strings, and then compare them.</li><li>2. Using Array to store appearances of each character</li></ul> |
 [139. Word Break](https://leetcode.com/problems/word-break/description/) | 2018/7/12 | [Here](src/WordBreak.java) | DP: DP[i] denotes whether we can break s[0:i-1] |
+[87. Scramble String](https://leetcode.com/problems/scramble-string/) | 2018/5/14 | [Java](src/ScrambleString.java) | DFS: Suppose we are standing at index i. string A is scramble string of string B if:<ul> <li>isScramble(A[0,i], B[0,i]) && isScramble(A[i, end], B[i, end]</li></ul> Or:<ul><li>  isScramble(A[0,i], B[end-i, end]) && isScramble(A[i, end], B[0, end-i]</li> </ul> |
+[72. Edit Distance](https://leetcode.com/problems/edit-distance/) | 2019/5/18 | [Here](src/EditDistance.java) | Classical DP: DP[i][j] represents the edit distance between word1[0...i) and word2[0...j) |
+[712. Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 2019/5/18 | [Here](src/MinimumASCIIDeleteSumforTwoStrings.java) | It is very similar to [72. EditDistance](src/EditDistance.java). Classical DP |
 
 ## Tree
 Question | Done Date | Code | Note |
@@ -264,12 +277,15 @@ Question | Done Date | Code | Note |
 [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) | 2018/6/12 | [Here](src/SerializeandDeserializeBinaryTree.java) | Borrow ideas from Heap |
 [127. Word Ladder](https://leetcode.com/problems/word-ladder/description/) | 2018/6/14 | [Here](src/WordLadder.java) | Change one character in string to build a new string. BFS |
 [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | 2018/6/21 | [Here](src/Trie.java) | Fundamental implementation of Trie |
+[872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | 2019/5/16 | <ul><li>[Java](src/LeafSimilarTree.js)</li><li>[JavaScript](JavaScript/LeafSimilarTree.js)</li></ul> | Using **DFS** to generate leaves string, then do comparison. |
+[851. Loud and Rich](https://leetcode.com/problems/loud-and-rich/)| 2019/5/16 | [Java](src/LoudAndRich.java)| <ul><li>the richness among people can be converted into a tree(using hashMap)</li><li>Then go through each person, populate the quietist person from top to bottom: If a node is quieter than the value which children nodes has stored, then update the answer for that children node and continue populating the result for the children nodes of that node</li></ul> |
 
 ## Graph
 Question | Done Date | Code | Note |
 ----|----|-----|-----|
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/description/) | 2018/6/13 | [Here](src/CourseSchedule.java) | Topo sort |
 [210. Course Schedule II](https://leetcode.com/problems/course-schedule-ii/description/) | 2018/6/13 | [Here](src/CourseScheduleII.java) | Topo Sort |
+[841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | 2019/5/15 | [Java](src/KeysAndRooms.java) | <ul><li>Firstly convert the input string to a hashMap <room : [keys]>, which represents a graph structure</li><li>Classic DFS, nothing special. Using a boolean array to determine if a room is visiting or not</li></ul> |
 
 ## Math
 Question | Done Date | Code | Note |
@@ -292,9 +308,12 @@ Question | Done Date | Code | Note |
 [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/description/) | 2018/6/18 | [Here](src/LongestIncreasingPathinaMatrix.java) | DFS + Memoization |
 [212. Word Search II](https://leetcode.com/problems/word-search-ii/description/) | 2018/6/19 | [Here](src/WordSearchII.java) | Trie Tree stores dictionary, DFS searches words in mtx |
 [200. Number of Islands](https://leetcode.com/problems/number-of-islands/description/) | 2018/7/9 | [Here](src/NumberofIslands.java) | Two solutions:<ul><li>1. Using DFS to "clear" a island when we meet an new island. However, this solution requires us to modify the input grid map</li><li>2. If we are not allowed to modify grid map, Get help from Union Find</li></ul> |
+[695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | 2019/5/14 | [Java](MaxAreaofIsland.java) | Follow up to [the number of islands](https://leetcode.com/problems/number-of-islands/). Using DFS to find an island and count the area, and **eliminate** it. Of course, if we are not allowed to modify the input matrix, we can use **union find** |
+[934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | 2019/5/18 | [Java](src/ShortestBridge.java) | Another variance of [Number of islands](https://leetcode.com/problems/number-of-islands/). Still using DFS to find islands. And because there are only 2 islands, we can mark the found island using '1' and '2'. Then using DFS to find the shortest bridge between 2 islands.|
 
 ## Design
 Question | Done Date | Code | Note |
 ----|----|-----|-----|
 [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) | 2018/6/22 | [Here](src/MedianFinder.java) | Two PriorityQueues: maxHeap + minHeap |
 [155. Min Stack](https://leetcode.com/problems/min-stack/description/) | 2018/7/9 | [Here](src/MinStack.java) | Each time we push a new item, we need to push current Minimal value alongside. |
+[146. LRU Cache](https://leetcode.com/problems/lru-cache/) | 2019/5/15 | [Java](src/LRUCache.java) | <ul><li>Bidirection linked list as container</li> <li>Using hashMap to store key : node of linked list </li> <li>the tail of linked list will be removed when cache is full</li> <li> new coming value will go into the head of the list</li> <li>The most recent visit value will be extracted from the list and put to the head of the list</li> </ul>  |
