@@ -2,7 +2,7 @@
 ## Some nonsense
 ~~Well, It's May 2018, I graduated last week, but I'm still seeking a job. I'm jobless right now .....~~
 
-WOW, time is flying! It's May 2019, I have worked as a software engineer for Gemalto for around 1 year. Most of my work is to implement UI components for desktop App in Windows using WPF. I don't have lots of chances to touch data structure and algorithm .... I come back because I find out I have to keep familiar with data structures and algorithms and make sure I still have ability to solve algorithm problem quickly, because I never know when the next interview is coming... I don't want to waste any opportunities. All I can do is to make sure I am fully prepared when the chance is around the corner. 
+WOW, time is flying! It's May 2019, I have worked as a software engineer for Gemalto for around 1 year. Most of my work is to implement UI components for desktop App in Windows using WPF. I don't have lots of chances to touch data structure and algorithm .... I come back because I find out I have to keep familiar with data structures and algorithms and make sure I still have ability to solve algorithm problem quickly, because I never know when the next interview will come... I don't want to pass any opportunities. All I can do is to make sure I am fully prepared when the next chance is coming. 
   
 **Trust The Process**
 
@@ -105,6 +105,7 @@ Question | Done Date | Code | Note |
 [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) | 2018/5/22 | [Here](src/PalindromeLinkedList.java) | Two Pointer, find half point in Linkedlist |
 [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) | 2018/6/11 | [Here](src/LowestCommonAncestorofaBinaryTree.java) | Recursion + From Bottom to top |
 [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | 2018/6/1 | [Here](src/DeleteNodeinaLinkedList.java) | Set node's value to next node's value. Like the way we use to delete a value in the array |
+[239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 2019/5/20 | [Java](src/SlidingWindowMaximum.java) | <ul><li>Using **PriorityQueue** to store the elements with its idx within the window [O(nlogk)]</li><li>Using **Deque** to store the idx of elements within the window [O(n)]</li></ul> |
 [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | 2018/7/6 | [Here](src/ValidAnagram.java) | <ul>Two solutions:<li>1. Sort two Strings, and then compare them.</li><li>2. Using Array to store appearances of each character</li></ul> |
 [251. Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/) | 2018/6/12 | [Here](src/Flatten2DVector.java) | Index to show we're at the Col-th element in the Row-th list. When moving forward col and row, we need to care about empty list |
 [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) | 2018/7/3 | [Here](src/MeetingRoomsII.java) | 1st solution: Using TreeMap; 2nd Solution: using priority queue |
@@ -132,6 +133,7 @@ Question | Done Date | Code | Note |
 [454. 4Sum II](https://leetcode.com/problems/4sum-ii/description/) | 2018/6/13 | [Here](src/FourSumII.java) | Recall HashMap way in 2Sum. Turn 4Sum to 2Sum. See A[i]+B[j] as one, and C[k]+D[l] as the other. |
 [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | 2019/5/14 | [Java](MaxAreaofIsland.java) | Follow up to [the number of islands](https://leetcode.com/problems/number-of-islands/). Using DFS to find an island and count the area, and **eliminate** it.  |
 [712. Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 2019/5/18 | [Here](src/MinimumASCIIDeleteSumforTwoStrings.java) | It is very similar to [72. EditDistance](src/EditDistance.java). Classical DP |
+[771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 2019/5/20 | [Java](src/JewelsAndStones.java) | Using array to store the existance of characters |
 [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) | 2018/6/7 | [Here](src/BasicCalculatorIII.java) | <ul><li>Recursion to solve embedded expression closed by '()'</li><li>Stack to solve operators with diffrent priority</li></ul> |
 [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | 2019/5/15 | [Java](src/KeysAndRooms.java) | <ul><li>Firstly convert the input string to a hashMap <room : [keys]>, which represents a graph structure</li><li>Classic DFS, nothing special. Using a boolean array to determine if a room is visiting or not</li></ul> |
 [851. Loud and Rich](https://leetcode.com/problems/loud-and-rich/)| 2019/5/16 | [Java](src/LoudAndRich.java)| <ul><li>the richness among people can be converted into a tree(using hashMap)</li><li>Then go through each person, populate the quietist person from top to bottom: If a node is quieter than the value which children nodes has stored, then update the answer for that children node and continue populating the result for the children nodes of that node</li></ul> |
@@ -199,6 +201,8 @@ Question | Done Date | Code | Note |
 [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) | 2018/7/3 | [Here](src/MeetingRoomsII.java) | 1st solution: Using TreeMap; 2nd Solution: using priority queue |
 [198. House Robber](https://leetcode.com/problems/house-robber/description/) | 2018/7/8 | [Here](src/HouseRobber.java) | Easy DP |
 [134. Gas Station](https://leetcode.com/problems/gas-station/description/) | 2018/7/12 | [Here](src/GasStation.java) | Greedy. We need to find the peak of fuel "need" (the need of i is cost[i]-gas[i]). If we can run around a circuit successfully, the start point should be the next index of "need" peek. But if at the end the accumulated need is larger than 0, we cannot complete a circuit. |
+[771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 2019/5/20 | [Java](src/JewelsAndStones.java) | Using array to store the existance of characters |
+[239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 2019/5/20 | [Java](src/SlidingWindowMaximum.java) | <ul><li>Using **PriorityQueue** to store the elements with its idx within the window [O(nlogk)]</li><li>Using **Deque** to store the idx of elements within the window [O(n)]</li></ul> |
 
 
 ## Linked List
