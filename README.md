@@ -21,7 +21,7 @@ Question | Done Date | Code | Note |
 [15. 3Sum](https://leetcode.com/problems/3sum/description/) | 2018/5/28 | [Here](src/ThreeSum.java) | Classical Sorting + two pointers |
 [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | 2018/6/6 | [Here](src/LetterCombinationsofaPhoneNumber.java) | Backtracking |
 [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | 2018/6/1 | [Here](src/RemoveNthNodeFromEndofList.java) | two pointers |
-[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | 2018/6/6 | [Here](src/ValidParentheses.java) | Stack |
+[20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | 2018/6/6 | <ul><li>[java](src/ValidParentheses.java)</li><li>[javascript](src/JavaScript/ValidParentheses.js)</li></ul> | Stack |
 [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | 2018/5/22 | [Here](src/MergeTwoSortedLists.java) | Two Pointer, Merge sort |
 [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) | 2018/6/6 | [Here](src/GenerateParentheses.java) | Backtracking |
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | 2018/6/2 | [Here](src/MergekSortedLists.java) | Priority Queue |
@@ -139,6 +139,7 @@ Question | Done Date | Code | Note |
 [851. Loud and Rich](https://leetcode.com/problems/loud-and-rich/)| 2019/5/16 | [Java](src/LoudAndRich.java)| <ul><li>the richness among people can be converted into a tree(using hashMap)</li><li>Then go through each person, populate the quietist person from top to bottom: If a node is quieter than the value which children nodes has stored, then update the answer for that children node and continue populating the result for the children nodes of that node</li></ul> |
 [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | 2019/5/16 | <ul><li>[Java](src/LeafSimilarTree.js)</li><li>[JavaScript](JavaScript/LeafSimilarTree.js)</li></ul> | Using **DFS** to generate leaves string, then do comparison. |
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | 2019/5/18 | [Java](src/ShortestBridge.java) | Another variance of [Number of islands](https://leetcode.com/problems/number-of-islands/). Still using DFS to find islands. And because there are only 2 islands, we can mark the found island using '1' and '2'. Then using DFS to find the shortest bridge between 2 islands. <li>Small performance improvement tip: if we use a hashset to store the locations of island 2, we can know if a bridge reaches island 2 in O(1) when we are doing DFS</li>|
+[937. Reorder Log Files](https://leetcode.com/problems/reorder-log-files/) | 2019/5/21 | [Java](src/ReorderLogFiles.java) | Sorting with customized comparator. |
 
 ## Array
 Question | Done Date | Code | Note |
@@ -203,6 +204,7 @@ Question | Done Date | Code | Note |
 [134. Gas Station](https://leetcode.com/problems/gas-station/description/) | 2018/7/12 | [Here](src/GasStation.java) | Greedy. We need to find the peak of fuel "need" (the need of i is cost[i]-gas[i]). If we can run around a circuit successfully, the start point should be the next index of "need" peek. But if at the end the accumulated need is larger than 0, we cannot complete a circuit. |
 [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 2019/5/20 | [Java](src/JewelsAndStones.java) | Using array to store the existance of characters |
 [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 2019/5/20 | [Java](src/SlidingWindowMaximum.java) | <ul><li>Using **PriorityQueue** to store the elements with its idx within the window [O(nlogk)]</li><li>Using **Deque** to store the idx of elements within the window [O(n)]</li></ul> |
+[937. Reorder Log Files](https://leetcode.com/problems/reorder-log-files/) | 2019/5/21 | [Java](src/ReorderLogFiles.java) | Sorting with customized comparator. |
 
 
 ## Linked List
