@@ -140,6 +140,7 @@ Question | Done Date | Code | Note |
 [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | 2019/5/16 | <ul><li>[Java](src/LeafSimilarTree.js)</li><li>[JavaScript](JavaScript/LeafSimilarTree.js)</li></ul> | Using **DFS** to generate leaves string, then do comparison. |
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | 2019/5/18 | [Java](src/ShortestBridge.java) | Another variance of [Number of islands](https://leetcode.com/problems/number-of-islands/). Still using DFS to find islands. And because there are only 2 islands, we can mark the found island using '1' and '2'. Then using DFS to find the shortest bridge between 2 islands. <li>Small performance improvement tip: if we use a hashset to store the locations of island 2, we can know if a bridge reaches island 2 in O(1) when we are doing DFS</li>|
 [937. Reorder Log Files](https://leetcode.com/problems/reorder-log-files/) | 2019/5/21 | [Java](src/ReorderLogFiles.java) | Sorting with customized comparator. |
+[957. Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | 2019/5/23 | [Java](src/PrisonCellsAfterNDays.java) | Math : Find the cycle of states |
 
 ## Array
 Question | Done Date | Code | Note |
@@ -305,6 +306,7 @@ Question | Done Date | Code | Note |
 [136. Single Number](https://leetcode.com/problems/single-number/description/) | 2018/7/11 | [Here](src/SingleNumber.java) | XOR |
 [137. Single Number II](https://leetcode.com/problems/single-number-ii/description/) | 2018/7/12 | [Here](src/SingleNumberII.java) | Bitwise + State Machine |
 [202. Happy Number](https://leetcode.com/problems/happy-number/description/) | 2018/7/12 | [Here](src/HappyNumber.java) | Iteration + Using HashSet to record number we've met. |
+[957. Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | 2019/5/23 | [Java](src/PrisonCellsAfterNDays.java) | Math : Find the cycle of states |
 
 ## Matrix
 Question | Done Date | Code | Note |
