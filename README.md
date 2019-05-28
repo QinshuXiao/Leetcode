@@ -27,17 +27,20 @@ Question | Done Date | Code | Note |
 [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) | 2018/6/2 | [Here](src/MergekSortedLists.java) | Priority Queue |
 [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | 2018/5/25 | [Here](src/RemoveDuplicatesfromSortedArray.java) | Two pointers |
 [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/description/) | 2018/6/5 | [Here](src/ImplementstrStr.java) | Using java built-in substring() and equals() |
+[31. Next Permutation](https://leetcode.com/problems/next-permutation/) | 2019/5/27 | [Java](src/NextPermutation.java) | find the element which is left of the last peak idx, then find the first element which is larger than nums[left] from the end. Swap them then reverse the array from the last peak to the end |
 [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) | 2018/5/22 | [Here](src/SearchinRotatedSortedArray.java) | Binary Search |
 [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | 2018/5/26 | [Here](src/SearchRange.java) | Binary search |
 [38. Count and Say](https://leetcode.com/problems/count-and-say/description/) | 2018/6/6 | [Here](src/CountandSay.java) | Operation of StringBuilder |
 [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) | 2018/5/21 | [Here](src/firstMissingPositive.java) | Using Index space |
 [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/) | 2018/6/7 | [Here](src/WildcardMatching.java) | DP |
+[46. Permutations](https://leetcode.com/problems/permutations/) | 2019/5/27 | [Java](src/Permutations.java) | Backtracking: enumerate every possibilities at each index |
 [48. Rotate Image](https://leetcode.com/problems/rotate-image/description/) | 2018/5/27 | [Here](src/RotateImage.java) | Four pointer to denote four points on which we need to operate |
 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | 2018/6/5 | [Here](src/GroupAnagrams.java) | HashMap; Firstly sort the string |
 [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) | 2018/5/22 | [Here](src/MaximumSubarray.java) | DP |
 [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) | 2018/5/26 | [Here](src/SpiralMatrix.java) | Four pointers to denote boundaries |
 [55. Jump Game](https://leetcode.com/problems/jump-game/description/) | 2018/5/21 | [Here](src/JumpGame.java) | DP |
 [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) | 2018/5/21 | [Here](src/MergeIntervals.java) | Sorting + Greedy |
+[60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 2019/5/27 | [Java](src/PermutationSequence.java) | given an array with 1 to n. After idx i, there are (n-i-1)! permutations. Then we can compute the number at idx i one by one ( k / (n-i-1)! ) |
 [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/) | 2018/5/28 | [Here](src/UniquePaths.java) | Classical DP |
 [66. Plus One](https://leetcode.com/problems/plus-one/description/) | 2018/5/28 | [Here](src/PlusOne.java) | Advanced bit |
 [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) | 2018/6/30 | [Here](src/Sqrtx.java) | Binary Search |
@@ -109,6 +112,8 @@ Question | Done Date | Code | Note |
 [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | 2018/7/6 | [Here](src/ValidAnagram.java) | <ul>Two solutions:<li>1. Sort two Strings, and then compare them.</li><li>2. Using Array to store appearances of each character</li></ul> |
 [251. Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/) | 2018/6/12 | [Here](src/Flatten2DVector.java) | Index to show we're at the Col-th element in the Row-th list. When moving forward col and row, we need to care about empty list |
 [253. Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/description/) | 2018/7/3 | [Here](src/MeetingRoomsII.java) | 1st solution: Using TreeMap; 2nd Solution: using priority queue |
+[266. Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) | 2019/5/27 | [Java](src/PalindromePermutation.java) | If only one character appears odd times, then the string can be converted to a palindrome. |
+[267. Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) | 2019/5/27 | [Java](PalindromePermutationII.java) | Determine if a string can be converted to palindromes + backtracking to generate palindromes |
 [268. Missing Number](https://leetcode.com/problems/missing-number/description/) | 2018/5/23 | [Here](src/MissingNumber.java) | Using index space! |
 [269. Alien Dictionary](https://leetcode.com/problems/alien-dictionary/description/) | 2018/6/18 | [Here](src/AlienDictionary.java) | Topo Sort |
 [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) | 2018/5/22 | [Here](src/MoveZeroes.java) | Two Pointer |
@@ -141,6 +146,7 @@ Question | Done Date | Code | Note |
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | 2019/5/18 | [Java](src/ShortestBridge.java) | Another variance of [Number of islands](https://leetcode.com/problems/number-of-islands/). Still using DFS to find islands. And because there are only 2 islands, we can mark the found island using '1' and '2'. Then using DFS to find the shortest bridge between 2 islands. <li>Small performance improvement tip: if we use a hashset to store the locations of island 2, we can know if a bridge reaches island 2 in O(1) when we are doing DFS</li>|
 [937. Reorder Log Files](https://leetcode.com/problems/reorder-log-files/) | 2019/5/21 | [Java](src/ReorderLogFiles.java) | Sorting with customized comparator. |
 [957. Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | 2019/5/23 | [Java](src/PrisonCellsAfterNDays.java) | Math : Find the cycle of states |
+[1053. Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/) | 2019/5/27 | [Java](src/PreviousPermutationWithOneSwap.java) | Reversed processing of *Next Permutation*. Find the bottom from the end firstly, the left element of the bottom is the element we need to change (called it bigger element). Then find out the first element which is slower than the bigger element from the end. Then swap them. |
 
 ## Array
 Question | Done Date | Code | Note |
@@ -206,6 +212,10 @@ Question | Done Date | Code | Note |
 [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 2019/5/20 | [Java](src/JewelsAndStones.java) | Using array to store the existance of characters |
 [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 2019/5/20 | [Java](src/SlidingWindowMaximum.java) | <ul><li>Using **PriorityQueue** to store the elements with its idx within the window [O(nlogk)]</li><li>Using **Deque** to store the idx of elements within the window [O(n)]</li></ul> |
 [937. Reorder Log Files](https://leetcode.com/problems/reorder-log-files/) | 2019/5/21 | [Java](src/ReorderLogFiles.java) | Sorting with customized comparator. |
+[46. Permutations](https://leetcode.com/problems/permutations/) | 2019/5/27 | [Java](src/Permutations.java) | Backtracking: enumerate every possibilities at each index |
+[31. Next Permutation](https://leetcode.com/problems/next-permutation/) | 2019/5/27 | [Java](src/NextPermutation.java) | find the element which is left of the last peak idx, then find the first element which is larger than nums[left] from the end. Swap them then reverse the array from the last peak to the end |
+[60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | 2019/5/27 | [Java](src/PermutationSequence.java) | given an array with 1 to n. After idx i, there are (n-i-1)! permutations. Then we can compute the number at idx i one by one ( k / (n-i-1)! ) |
+[1053. Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/) | 2019/5/27 | [Java](src/PreviousPermutationWithOneSwap.java) | Reversed processing of *Next Permutation*. Find the bottom from the end firstly, the left element of the bottom is the element we need to change (called it bigger element). Then find out the first element which is slower than the bigger element from the end. Then swap them. |
 
 
 ## Linked List
@@ -263,6 +273,8 @@ Question | Done Date | Code | Note |
 [87. Scramble String](https://leetcode.com/problems/scramble-string/) | 2018/5/14 | [Java](src/ScrambleString.java) | DFS: Suppose we are standing at index i. string A is scramble string of string B if:<ul> <li>isScramble(A[0,i], B[0,i]) && isScramble(A[i, end], B[i, end]</li></ul> Or:<ul><li>  isScramble(A[0,i], B[end-i, end]) && isScramble(A[i, end], B[0, end-i]</li> </ul> |
 [72. Edit Distance](https://leetcode.com/problems/edit-distance/) | 2019/5/18 | [Here](src/EditDistance.java) | Classical DP: DP[i][j] represents the edit distance between word1[0...i) and word2[0...j) |
 [712. Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 2019/5/18 | [Here](src/MinimumASCIIDeleteSumforTwoStrings.java) | It is very similar to [72. EditDistance](src/EditDistance.java). Classical DP |
+[266. Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) | 2019/5/27 | [Java](src/PalindromePermutation.java) | If only one character appears odd times, then the string can be converted to a palindrome. |
+[267. Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) | 2019/5/27 | [Java](PalindromePermutationII.java) | Determine if a string can be converted to palindromes + backtracking to generate palindromes |
 
 ## Tree
 Question | Done Date | Code | Note |
