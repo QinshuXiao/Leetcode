@@ -13,6 +13,7 @@ Question | Done Date | Code | Note |
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | 2018/6/1 | [Here](src/AddTwoNumbers.java) | two pointers, advacend bit |
 [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) | 2018/6/4 | [Here](src/LongestSubstringWithoutRepeatingCharacters.java) | Two pointers + Boolean array recording character appearing in s[slow:fast] |
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) | 2018/6/6 | [Here](src/LongestPalindromicSubstring.java) | Two pointers |
+[6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | 2019/6/3 | [Java](src/ZigZagConversion.java) | generate result strings level by level |
 [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) | 2018/6/6 | [Here](src/StringtoInteger.java) | Edge cases: 1. leading blanks; 2. '+' or '-'; 3. Integer overflow |
 [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) | 2018/6/7 | [Here](src/RegularExpressionMatching.java) | DP |
 [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) | 2018/5/21 | [Here](src/containerWithMostWater.java) | Two Pointer |
@@ -146,6 +147,7 @@ Question | Done Date | Code | Note |
 [851. Loud and Rich](https://leetcode.com/problems/loud-and-rich/)| 2019/5/16 | [Java](src/LoudAndRich.java)| <ul><li>the richness among people can be converted into a tree(using hashMap)</li><li>Then go through each person, populate the quietist person from top to bottom: If a node is quieter than the value which children nodes has stored, then update the answer for that children node and continue populating the result for the children nodes of that node</li></ul> |
 [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | 2019/5/16 | <ul><li>[Java](src/LeafSimilarTree.js)</li><li>[JavaScript](JavaScript/LeafSimilarTree.js)</li></ul> | Using **DFS** to generate leaves string, then do comparison. |
 [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) | 2019/6/2 | [Java](src/SnakesAndLadders.java) | BFS variance. Need to jump if a grid touch ladder or snake |
+[931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | 2019/6/3 | [Java](src/MinimumFallingPathSum.java) | Classical DP |
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | 2019/5/18 | [Java](src/ShortestBridge.java) | Another variance of [Number of islands](https://leetcode.com/problems/number-of-islands/). Still using DFS to find islands. And because there are only 2 islands, we can mark the found island using '1' and '2'. Then using DFS to find the shortest bridge between 2 islands. <li>Small performance improvement tip: if we use a hashset to store the locations of island 2, we can know if a bridge reaches island 2 in O(1) when we are doing DFS</li>|
 [937. Reorder Log Files](https://leetcode.com/problems/reorder-log-files/) | 2019/5/21 | [Java](src/ReorderLogFiles.java) | Sorting with customized comparator. |
 [957. Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | 2019/5/23 | [Java](src/PrisonCellsAfterNDays.java) | Math : Find the cycle of states |
@@ -307,6 +309,7 @@ Question | Done Date | Code | Note |
 [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/) | 2018/6/21 | [Here](src/Trie.java) | Fundamental implementation of Trie |
 [872. Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | 2019/5/16 | <ul><li>[Java](src/LeafSimilarTree.js)</li><li>[JavaScript](JavaScript/LeafSimilarTree.js)</li></ul> | Using **DFS** to generate leaves string, then do comparison. |
 [851. Loud and Rich](https://leetcode.com/problems/loud-and-rich/)| 2019/5/16 | [Java](src/LoudAndRich.java)| <ul><li>the richness among people can be converted into a tree(using hashMap)</li><li>Then go through each person, populate the quietist person from top to bottom: If a node is quieter than the value which children nodes has stored, then update the answer for that children node and continue populating the result for the children nodes of that node</li></ul> |
+[6. ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | 2019/6/3 | [Java](src/ZigZagConversion.java) | generate result strings level by level |
 
 ## Graph
 Question | Done Date | Code | Note |
@@ -341,6 +344,7 @@ Question | Done Date | Code | Note |
 [934. Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | 2019/5/18 | [Java](src/ShortestBridge.java) | Another variance of [Number of islands](https://leetcode.com/problems/number-of-islands/). Still using DFS to find islands. And because there are only 2 islands, we can mark the found island using '1' and '2'. Then using DFS to find the shortest bridge between 2 islands.|
 [675. Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/) | 2019/6/2 | [Java](src/CutOffTreesforGolfEvent.java) | <ul><li>Using priorityqueue to sort the trees by their heights.</li><li>Cut the next tree one by one. Computing the distance between the current pos and the next tree's pos using BFS</li></ul> |
 [909. Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) | 2019/6/2 | [Java](src/SnakesAndLadders.java) | BFS variance. Need to jump if a grid touch ladder or snake |
+[931. Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | 2019/6/3 | [Java](src/MinimumFallingPathSum.java) | Classical DP |
 
 ## Design
 Question | Done Date | Code | Note |
