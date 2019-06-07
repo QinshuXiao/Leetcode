@@ -33,6 +33,7 @@ Question | Done Date | Code | Note |
 [34. Search for a Range](https://leetcode.com/problems/search-for-a-range/description/) | 2018/5/26 | [Here](src/SearchRange.java) | Binary search |
 [38. Count and Say](https://leetcode.com/problems/count-and-say/description/) | 2018/6/6 | [Here](src/CountandSay.java) | Operation of StringBuilder |
 [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/description/) | 2018/5/21 | [Here](src/firstMissingPositive.java) | Using Index space |
+[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 2019/6/6 | [Java](src/TrappingRainWater.java) | 2-way iteration:the first round is from left to right; the second round is from right to left |
 [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/) | 2018/6/7 | [Here](src/WildcardMatching.java) | DP |
 [46. Permutations](https://leetcode.com/problems/permutations/) | 2019/5/27 | [Java](src/Permutations.java) | Backtracking: enumerate every possibilities at each index |
 [48. Rotate Image](https://leetcode.com/problems/rotate-image/description/) | 2018/5/27 | [Here](src/RotateImage.java) | Four pointer to denote four points on which we need to operate |
@@ -78,6 +79,7 @@ Question | Done Date | Code | Note |
 [137. Single Number II](https://leetcode.com/problems/single-number-ii/description/) | 2018/7/12 | [Here](src/SingleNumberII.java) | Bitwise + State Machine |
 [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) | 2018/6/2 | [Here](src/CopyListwithRandomPointer.java) | Firstly, copy label and put new generated node right behind original node; Then copy random pointer; Finally, extract copied nodes and reset original list |
 [139. Word Break](https://leetcode.com/problems/word-break/description/) | 2018/7/12 | [Here](src/WordBreak.java) | DP: DP[i] denotes whether we can break s[0:i-1] |
+[140. Word Break II](https://leetcode.com/problems/word-break-ii/) | 2019/6/6 | [Java](src/WordBreakII.java) | <ul><li>Used DP to find if we can break words. DP[i] stores all index j such that s.substring(j,i) exists in wordDict</li><li>Generated result strings using DFS</li></ul> |
 [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) | 2018/6/1 | [Here](src/LinkedListCycle.java) | Two pointers, one moves forward by 2 steps while the other moves forward by 1 step. |
 [146. LRU Cache](https://leetcode.com/problems/lru-cache/) | 2019/5/15 | [Java](src/LRUCache.java) | <ul><li>Bidirection linked list as container</li> <li>Using hashMap to store key : node of linked list </li> <li>the tail of linked list will be removed when cache is full</li> <li> new coming value will go into the head of the list</li> <li>The most recent visit value will be extracted from the list and put to the head of the list</li> </ul>  |
 [148. Sort List](https://leetcode.com/problems/sort-list/description/) | 2018/6/2 | [Here](src/SortList.java) | Merge Sort |
@@ -226,6 +228,7 @@ Question | Done Date | Code | Note |
 [1053. Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/) | 2019/5/27 | [Java](src/PreviousPermutationWithOneSwap.java) | Reversed processing of *Next Permutation*. Find the bottom from the end firstly, the left element of the bottom is the element we need to change (called it bigger element). Then find out the first element which is slower than the bigger element from the end. Then swap them. |
 [526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | 2019/5/30 | [Java](src/BeautifulArrangement.java) | Classical backtracking solution |
 [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 2019/5/31 | [Java](src/MinimumCostForTickets.java) | DP: res[i]represents the minimal costs at day i ending with 1-day pass([0]), ending with 7-day pass([1]), ending with 30-day pass([2]). Only update DP matrix for the day we travel, otherwise just directly copy the previous day's result |
+[42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 2019/6/6 | [Java](src/TrappingRainWater.java) | 2-way iteration:the first round is from left to right; the second round is from right to left |
 
 
 ## Linked List
@@ -286,6 +289,7 @@ Question | Done Date | Code | Note |
 [266. Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) | 2019/5/27 | [Java](src/PalindromePermutation.java) | If only one character appears odd times, then the string can be converted to a palindrome. |
 [267. Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) | 2019/5/27 | [Java](PalindromePermutationII.java) | Determine if a string can be converted to palindromes + backtracking to generate palindromes |
 [984. String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 2019/5/30 | [Java](src/StringWithoutAAAorBBB.java) | Greedy algorithm:<ul><li>Always put the character which has left more into the result firstly.</li><li>If we've already put 2 consective identical characters, then put the other one instead.</li></ul> |
+[140. Word Break II](https://leetcode.com/problems/word-break-ii/) | 2019/6/6 | [Java](src/WordBreakII.java) | <ul><li>Used DP to find if we can break words. DP[i] stores all index j such that s.substring(j,i) exists in wordDict</li><li>Generated result strings using DFS</li></ul> |
 
 ## Tree
 Question | Done Date | Code | Note |
