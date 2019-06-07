@@ -142,6 +142,7 @@ Question | Done Date | Code | Note |
 [526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | 2019/5/30 | [Java](src/BeautifulArrangement.java) | Classical backtracking solution |
 [675. Cut Off Trees for Golf Event](https://leetcode.com/problems/cut-off-trees-for-golf-event/) | 2019/6/2 | [Java](src/CutOffTreesforGolfEvent.java) | <ul><li>Using priorityqueue to sort the trees by their heights.</li><li>Cut the next tree one by one. Computing the distance between the current pos and the next tree's pos using BFS</li></ul> |
 [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | 2019/5/14 | [Java](MaxAreaofIsland.java) | Follow up to [the number of islands](https://leetcode.com/problems/number-of-islands/). Using DFS to find an island and count the area, and **eliminate** it.  |
+[703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | 2019/6/6 | [Java](src/KthLargestElementInStream.java) | Easy minHeap (PriorityQueue) operation |
 [712. Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | 2019/5/18 | [Here](src/MinimumASCIIDeleteSumforTwoStrings.java) | It is very similar to [72. EditDistance](src/EditDistance.java). Classical DP |
 [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | 2019/5/20 | [Java](src/JewelsAndStones.java) | Using array to store the existance of characters |
 [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) | 2018/6/7 | [Here](src/BasicCalculatorIII.java) | <ul><li>Recursion to solve embedded expression closed by '()'</li><li>Stack to solve operators with diffrent priority</li></ul> |
@@ -155,6 +156,7 @@ Question | Done Date | Code | Note |
 [957. Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | 2019/5/23 | [Java](src/PrisonCellsAfterNDays.java) | Math : Find the cycle of states |
 [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 2019/5/31 | [Java](src/MinimumCostForTickets.java) | DP: res[i]represents the minimal costs at day i ending with 1-day pass([0]), ending with 7-day pass([1]), ending with 30-day pass([2]). Only update DP matrix for the day we travel, otherwise just directly copy the previous day's result |
 [984. String Without AAA or BBB](https://leetcode.com/problems/string-without-aaa-or-bbb/) | 2019/5/30 | [Java](src/StringWithoutAAAorBBB.java) | Greedy algorithm:<ul><li>Always put the character which has left more into the result firstly.</li><li>If we've already put 2 consective identical characters, then put the other one instead.</li></ul> |
+[1019. Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 2019/6/6 | [Java](src/NextGreaterNodeInLinkedList.java) | Using Stack to store visited values with their idx. When we meet a new value, pop up the previous smaller elements, and update their result to the value of the current node. |
 [1053. Previous Permutation With One Swap](https://leetcode.com/problems/previous-permutation-with-one-swap/) | 2019/5/27 | [Java](src/PreviousPermutationWithOneSwap.java) | Reversed processing of *Next Permutation*. Find the bottom from the end firstly, the left element of the bottom is the element we need to change (called it bigger element). Then find out the first element which is slower than the bigger element from the end. Then swap them. |
 
 
@@ -229,6 +231,7 @@ Question | Done Date | Code | Note |
 [526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/) | 2019/5/30 | [Java](src/BeautifulArrangement.java) | Classical backtracking solution |
 [983. Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/) | 2019/5/31 | [Java](src/MinimumCostForTickets.java) | DP: res[i]represents the minimal costs at day i ending with 1-day pass([0]), ending with 7-day pass([1]), ending with 30-day pass([2]). Only update DP matrix for the day we travel, otherwise just directly copy the previous day's result |
 [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 2019/6/6 | [Java](src/TrappingRainWater.java) | 2-way iteration:the first round is from left to right; the second round is from right to left |
+[703. Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | 2019/6/6 | [Java](src/KthLargestElementInStream.java) | Easy minHeap (PriorityQueue) operation |
 
 
 ## Linked List
@@ -251,6 +254,7 @@ Question | Done Date | Code | Note |
 [147. Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) | 2018/6/23 | [Here](src/InsertionSortList.java) | Insertion Sort |
 [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) | 2018/6/23 | [Here](src/SwapNodesinPairs.java) | Operations on Linked List: **Swap two nodes**  |
 [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/) | 2018/7/1 | [Here](src/ReverseLinkedListII.java) | Firstly determine start point and end point. Then reverse |
+[1019. Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | 2019/6/6 | [Java](src/NextGreaterNodeInLinkedList.java) | Using Stack to store visited values with their idx. When we meet a new value, pop up the previous smaller elements, and update their result to the value of the current node. |
 
 
 ## String
